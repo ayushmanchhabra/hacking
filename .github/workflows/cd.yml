@@ -32,6 +32,7 @@ jobs:
           ./main.sh asyncawake.studio ./targets/asyncawakestudio
           ./main.sh ayushmanchhabra.com ./targets/ayushmanchhabra
           ./main.sh vaultfol.io ./targets/vaultfolio
+          ./main.sg bikedekho.com,cardekho.com,channelpartnerutility.com,gaadi.com,girnarsoft.co.in,revv.co.in,rupyy.com,zigwheels.com ./targets/girnarsoft
 
       - name: Commit and push changes
         run: |
