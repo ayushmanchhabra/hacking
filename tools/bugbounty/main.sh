@@ -25,3 +25,7 @@ mkdir -p -- "$output_dir"
 "$script_dir/src/sub.sh" "$input_target" "$output_dir/subdomains.txt"
 "$script_dir/src/dns.sh" "$output_dir/subdomains.txt" "$output_dir/dns_records.csv"
 "$script_dir/src/crt.sh" "$output_dir/subdomains.txt" "$output_dir/tls_certificates.csv"
+
+awk -F',' 'NR > 1 && ($2 == "A" || $2 == "AAAA") { print $3 }' "$output_dir/dns_records.csv" \
+  | tr -d '"' | sort -u > "$output_dir/ips.txt"
+"$script_dir/src/ipdr.sh" "$output_dir/ips.txt" "$output_dir/ipdr.csv"
