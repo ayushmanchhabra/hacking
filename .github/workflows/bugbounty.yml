@@ -33,7 +33,7 @@ jobs:
       - name: Build killchain
         run: make -C tools/killchain
       - name: Upload killchain binary
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: killchain-binary
           path: tools/killchain/out/bin/killchain
@@ -48,7 +48,7 @@ jobs:
         with:
           ref: ${{ github.ref_name }}
       - name: Download killchain binary
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: killchain-binary
           path: tools/killchain/out/bin
