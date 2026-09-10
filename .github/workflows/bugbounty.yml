@@ -4,6 +4,11 @@ on:
   schedule:
       - cron: '0 0 * * *'
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "tools/bugbounty/**"
   pull_request:
     branches:
       - main
@@ -14,13 +19,41 @@ permissions:
   contents: write
 
 jobs:
-  info:
+  build-killchain:
     runs-on: ubuntu-24.04
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7.0.1
         with:
           ref: ${{ github.ref_name }}
+      - name: Install build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clang
+      - name: Build killchain
+        run: make -C tools/killchain
+      - name: Upload killchain binary
+        uses: actions/upload-artifact@v4
+        with:
+          name: killchain-binary
+          path: tools/killchain/out/bin/killchain
+          if-no-files-found: error
+
+  info:
+    needs: build-killchain
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
+        with:
+          ref: ${{ github.ref_name }}
+      - name: Download killchain binary
+        uses: actions/download-artifact@v4
+        with:
+          name: killchain-binary
+          path: tools/killchain/out/bin
+      - name: Make killchain binary executable
+        run: chmod +x tools/killchain/out/bin/killchain
       - name: Install subfinder
         run: |
           go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
@@ -29,12 +62,14 @@ jobs:
         run: |
           sudo apt update
           sudo apt install openssl
-          chmod +x ./tools/bugbounty/src/*.sh ./tools/bugbounty/src/main.sh
-          ./tools/bugbounty/src/main.sh acquisory.com ./tools/bugbounty/targets/acquisory.com
-          ./tools/bugbounty/src/main.sh asyncawake.studio ./tools/bugbounty/targets/asyncawake.studio
-          ./tools/bugbounty/src/main.sh ayushmanchhabra.com ./tools/bugbounty/targets/ayushmanchhabra.com
-          ./tools/bugbounty/src/main.sh vaultfol.io ./tools/bugbounty/targets/vaultfol.io
-          ./tools/bugbounty/src/main.sh bikedekho.com,cardekho.com,channelpartnerutility.com,gaadi.com,girnarsoft.co.in,revv.co.in,rupyy.com,zigwheels.com ./tools/bugbounty/targets/girnarsoft
+          chmod +x ./tools/bugbounty/main.sh ./tools/bugbounty/src/*.sh
+          # port.sh (invoked by main.sh) needs root for killchain's raw sockets;
+          # run under sudo while preserving PATH so subfinder/openssl resolve.
+          sudo env "PATH=$PATH" ./tools/bugbounty/main.sh acquisory.com ./tools/bugbounty/targets/acquisory.com
+          sudo env "PATH=$PATH" ./tools/bugbounty/main.sh asyncawake.studio ./tools/bugbounty/targets/asyncawake.studio
+          sudo env "PATH=$PATH" ./tools/bugbounty/main.sh ayushmanchhabra.com ./tools/bugbounty/targets/ayushmanchhabra.com
+          sudo env "PATH=$PATH" ./tools/bugbounty/main.sh vaultfol.io ./tools/bugbounty/targets/vaultfol.io
+          # sudo env "PATH=$PATH" ./tools/bugbounty/main.sh bikedekho.com,cardekho.com,channelpartnerutility.com,gaadi.com,girnarsoft.co.in,revv.co.in,rupyy.com,zigwheels.com ./tools/bugbounty/targets/girnarsoft
 
       - name: Commit and push changes
         run: |

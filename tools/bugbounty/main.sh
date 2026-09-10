@@ -29,3 +29,4 @@ mkdir -p -- "$output_dir"
 awk -F',' 'NR > 1 && ($2 == "A" || $2 == "AAAA") { print $3 }' "$output_dir/dns_records.csv" \
   | tr -d '"' | sort -u > "$output_dir/ips.txt"
 "$script_dir/src/ipdr.sh" "$output_dir/ips.txt" "$output_dir/ipdr.csv"
+"$script_dir/src/port.sh" "$output_dir/ips.txt" "$output_dir/ports.csv"

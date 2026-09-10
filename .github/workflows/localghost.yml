@@ -2,6 +2,11 @@ name: localghost
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "tools/localghost/**"
   pull_request:
     branches:
       - main
@@ -43,6 +48,9 @@ jobs:
       fail-fast: false
     runs-on: ${{ matrix.os }}
     name: ${{ matrix.display }}
+    defaults:
+      run:
+        working-directory: tools/localghost
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7.0.1
