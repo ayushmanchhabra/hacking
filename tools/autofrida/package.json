@@ -1,0 +1,20 @@
+{
+    "name": "taskforce",
+    "version": "0.2.0",
+    "scripts": {
+        "start": "bash ./third_party/hunter/enumerate.sh",
+        "test": "node --experimental-test-coverage --test ./tests/specs/*.js",
+        "frida": "node ./tests/specs/aos/fridaServer.test.js"
+    },
+    "type": "module",
+    "volta": {
+        "node": "24.12.0",
+        "npm": "11.6.2"
+    },
+    "dependencies": {
+        "axios": "^1.12.2",
+        "chromedriver": "^142.0.3",
+        "selenium-webdriver": "^4.38.0",
+        "xml2js": "^0.6.2"
+    }
+}

@@ -1,12 +1,14 @@
-name: cd
+name: bugbounty
 
 on:
-  push:
+  schedule:
+      - cron: '0 0 * * *'
+  workflow_dispatch:
+  pull_request:
     branches:
       - main
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    paths:
+      - "tools/bugbounty/**"
 
 permissions:
   contents: write
@@ -27,12 +29,12 @@ jobs:
         run: |
           sudo apt update
           sudo apt install openssl
-          chmod +x ./src/*.sh ./main.sh
-          ./main.sh acquisory.com ./targets/acquisory.com
-          ./main.sh asyncawake.studio ./targets/asyncawakestudio
-          ./main.sh ayushmanchhabra.com ./targets/ayushmanchhabra
-          ./main.sh vaultfol.io ./targets/vaultfolio
-          ./main.sh bikedekho.com,cardekho.com,channelpartnerutility.com,gaadi.com,girnarsoft.co.in,revv.co.in,rupyy.com,zigwheels.com ./targets/girnarsoft
+          chmod +x ./tools/bugbounty/src/*.sh ./tools/bugbounty/src/main.sh
+          ./tools/bugbounty/src/main.sh acquisory.com ./tools/bugbounty/targets/acquisory.com
+          ./tools/bugbounty/src/main.sh asyncawake.studio ./tools/bugbounty/targets/asyncawake.studio
+          ./tools/bugbounty/src/main.sh ayushmanchhabra.com ./tools/bugbounty/targets/ayushmanchhabra.com
+          ./tools/bugbounty/src/main.sh vaultfol.io ./tools/bugbounty/targets/vaultfol.io
+          ./tools/bugbounty/src/main.sh bikedekho.com,cardekho.com,channelpartnerutility.com,gaadi.com,girnarsoft.co.in,revv.co.in,rupyy.com,zigwheels.com ./tools/bugbounty/targets/girnarsoft
 
       - name: Commit and push changes
         run: |
@@ -42,6 +44,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: refresh domain info"
+            git commit -m "chore(bugbounty): refresh domain info"
             git push origin HEAD:${{ github.ref_name }}
           fi

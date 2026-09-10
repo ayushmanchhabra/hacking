@@ -1,0 +1,7 @@
+{
+  "name": "localghost",
+  "version": "0.0.0",
+  "main": "index.html",
+  "node-main": "server.js",
+  "chromium-args": "--enable-logging=stderr"
+}

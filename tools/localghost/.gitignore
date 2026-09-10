@@ -1,0 +1,10 @@
+# runtime
+node_modules
+
+# application
+cache
+out
+src/desktop/main.js
+src/desktop/server.js
+src/desktop/styles.css
+src/website/main.js

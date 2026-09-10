@@ -1,0 +1,65 @@
+{
+  "name": "localghost",
+  "main": "http://localhost:8080",
+  "node-remote": "http://localhost:8080",
+  "node-main": "server.js",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix",
+    "type": "tsc --noEmit",
+    "doc": "node ./config/doc.js",
+    "dev": "concurrently -k npm:dev:website npm:dev:css npm:dev:server npm:dev:desktop",
+    "dev:website": "esbuild ./src/website/main.tsx --bundle --outdir=./src/website --watch --servedir=./src/website --serve=8080",
+    "dev:css": "tailwindcss -i ./src/website/styles.css -o ./src/desktop/styles.css --watch",
+    "dev:server": "esbuild ./src/server/desktop.ts --bundle --platform=node --format=cjs --outfile=./src/desktop/server.js --watch",
+    "dev:desktop": "wait-on -c ./config/wait.json http-get://localhost:8080 && ./config/dev.js",
+    "bld": "npm run bld:website && npm run bld:server && npm run bld:desktop",
+    "bld:website": "cp ./src/website/index.html ./src/desktop/index.html && esbuild ./src/website/main.tsx --bundle --outdir=./src/desktop && tailwindcss -i ./src/website/styles.css -o ./src/desktop/styles.css --minify",
+    "bld:desktop": "node ./config/bld.js",
+    "bld:server": "esbuild ./src/server/desktop.ts --bundle --platform=node --format=cjs --outfile=./src/desktop/server.js",
+    "e2e": "node --test --experimental-test-coverage --test-coverage-exclude=\"tests/**/*\" \"tests/specs/*.test.js\"",
+    "server": "node src/server/server.ts"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@nwutils/doctor": "^0.1.0",
+    "@nwutils/getter": "^0.2.5",
+    "@nwutils/runner": "^0.2.3",
+    "@tailwindcss/cli": "^4.3.3",
+    "@types/node": "^26.2.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "concurrently": "^10.0.5",
+    "esbuild": "^0.28.2",
+    "eslint": "^10.8.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.11.0",
+    "nw-builder": "^4.18.1",
+    "prettier": "^3.9.6",
+    "selenium-webdriver": "^4.47.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "6.0.3",
+    "typescript-eslint": "^8.67.0",
+    "wait-on": "^9.1.0"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "onFail": "warn",
+      "version": "26.7.0"
+    },
+    "packageManager": {
+      "name": "npm",
+      "version": "12.0.2",
+      "onFail": "warn"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+generic: https://github.com/InfoSecWarrior/Offensive-Payloads/blob/main/Directory-Traversal-Payloads.txt
