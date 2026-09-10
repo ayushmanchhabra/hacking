@@ -2,7 +2,7 @@ URI,Cert Subject,Cert Issuer,Not Before,Not After,Days Until Expiry
 aarnaford.gaadi.com,N/A,N/A,N/A,N/A,N/A
 admin.channelpartnerutility.com,N/A,N/A,N/A,N/A,N/A
 admin.gaadi.com,N/A,N/A,N/A,N/A,N/A
-admin.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,154
+admin.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,153
 adminauctionstage.cardekho.com,N/A,N/A,N/A,N/A,N/A
 adminstage.gaadi.com,N/A,N/A,N/A,N/A,N/A
 adminstage10.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -20,60 +20,60 @@ adminstage6.gaadi.com,N/A,N/A,N/A,N/A,N/A
 adminstage7.gaadi.com,N/A,N/A,N/A,N/A,N/A
 adminstage8.gaadi.com,N/A,N/A,N/A,N/A,N/A
 adminstage9.gaadi.com,N/A,N/A,N/A,N/A,N/A
-affiliate.bikedekho.com,CN = *.go2cloud.org,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Nov 20 00:00:00 2025 GMT,Dec 18 23:59:59 2026 GMT,100
-ai-staging.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-ai.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+affiliate.bikedekho.com,CN = *.go2cloud.org,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Nov 20 00:00:00 2025 GMT,Dec 18 23:59:59 2026 GMT,99
+ai-staging.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+ai.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 akashsford.gaadi.com,N/A,N/A,N/A,N/A,N/A
 alfa.zigwheels.com,N/A,N/A,N/A,N/A,N/A
-alpha.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+alpha.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 alpha.gaadi.com,N/A,N/A,N/A,N/A,N/A
 alpha.inspection.gaadi.com,N/A,N/A,N/A,N/A,N/A
 alpha1.loanbox.gaadi.com,N/A,N/A,N/A,N/A,N/A
-alphaapi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-alphabackend.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+alphaapi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+alphabackend.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 alphabikes.gaadi.com,N/A,N/A,N/A,N/A,N/A
 alphagameofperformance.bikedekho.com,N/A,N/A,N/A,N/A,N/A
-alphahindi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+alphahindi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 alphausedcar.gaadi.com,N/A,N/A,N/A,N/A,N/A
 ameo.cardekho.com,N/A,N/A,N/A,N/A,N/A
 analytics.images10.gaadi.com,N/A,N/A,N/A,N/A,N/A
-api-leadsquared.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+api-leadsquared.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 api-strategybox.rupyy.com,N/A,N/A,N/A,N/A,N/A
-api.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-api.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+api.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+api.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 api.dealersites.cardekho.com,N/A,N/A,N/A,N/A,N/A
 api.tracko.cardekho.com,N/A,N/A,N/A,N/A,N/A
 apiadminstage16.gaadi.com,N/A,N/A,N/A,N/A,N/A
-apidigipartner-new.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+apidigipartner-new.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 apidigipartner-new1.rupyy.com,N/A,N/A,N/A,N/A,N/A
-apidigipartner.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+apidigipartner.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 apidigipartner1.rupyy.com,N/A,N/A,N/A,N/A,N/A
 apipartner-dr.cardekho.com,N/A,N/A,N/A,N/A,N/A
-apis.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+apis.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 apisfa.gaadi.com,N/A,N/A,N/A,N/A,N/A
 apisfadev.gaadi.com,N/A,N/A,N/A,N/A,N/A
-apitrustmark.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
-apiusedcar.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
+apitrustmark.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
+apiusedcar.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
 aplalfa.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 aplalfa.cardekho.com,N/A,N/A,N/A,N/A,N/A
 aplalfa.zigwheels.com,N/A,N/A,N/A,N/A,N/A
-aprilia.girnarsoft.co.in,CN = aprilia.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE1,Aug 18 18:19:29 2026 GMT,Nov 16 18:19:28 2026 GMT,68
+aprilia.girnarsoft.co.in,CN = aprilia.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE1,Aug 18 18:19:29 2026 GMT,Nov 16 18:19:28 2026 GMT,67
 aspire.gaadi.com,N/A,N/A,N/A,N/A,N/A
-asset-transaction-api.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+asset-transaction-api.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 assets.apis.cardekho.com,N/A,N/A,N/A,N/A,N/A
 assets.gaadi.com,N/A,N/A,N/A,N/A,N/A
 assets.images10.gaadi.com,N/A,N/A,N/A,N/A,N/A
 atherbike.bikedekho.com,N/A,N/A,N/A,N/A,N/A
-auc.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
-auctionadmin.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
-auctionadminpp.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
+auc.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
+auctionadmin.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
+auctionadminpp.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
 auctiondev.gaadi.com,N/A,N/A,N/A,N/A,N/A
-auctions.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
-auctionscdn.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-auctionspp.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
+auctions.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
+auctionscdn.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+auctionspp.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
 auctionstage.cardekho.com,N/A,N/A,N/A,N/A,N/A
 auctionstage.gaadi.com,N/A,N/A,N/A,N/A,N/A
-auctionstatic.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
+auctionstatic.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
 auto-jinny.cardekho.com,N/A,N/A,N/A,N/A,N/A
 auto.gaadi.com,N/A,N/A,N/A,N/A,N/A
 autoconfig.channelpartnerutility.com,N/A,N/A,N/A,N/A,N/A
@@ -85,33 +85,33 @@ aws.channelpartnerutility.com,N/A,N/A,N/A,N/A,N/A
 axis.gaadi.com,N/A,N/A,N/A,N/A,N/A
 axis2.gaadi.com,N/A,N/A,N/A,N/A,N/A
 b2cdevtest.gaadi.com,N/A,N/A,N/A,N/A,N/A
-backend.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+backend.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 backendtrustmark.cardekho.com,N/A,N/A,N/A,N/A,N/A
 bankbazaar.cardekho.com,N/A,N/A,N/A,N/A,N/A
 bankbox-pp.rupyy.com,N/A,N/A,N/A,N/A,N/A
-bankbox.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 24 00:00:00 2026 GMT,Feb 6 23:59:59 2027 GMT,150
+bankbox.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 24 00:00:00 2026 GMT,Feb 6 23:59:59 2027 GMT,149
 bankoffer-staging.rupyy.com,N/A,N/A,N/A,N/A,N/A
 bankoffer.rupyy.com,N/A,N/A,N/A,N/A,N/A
-battery.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+battery.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 batterydev1.gaadi.com,N/A,N/A,N/A,N/A,N/A
-bd.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-bdalpha.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-bdtest.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+bd.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+bdalpha.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+bdtest.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 beta.dealercrm.gaadi.com,N/A,N/A,N/A,N/A,N/A
 beta.gaadi.com,N/A,N/A,N/A,N/A,N/A
-beta.honda.gaadi.com,CN = beta.honda.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Oct 21 00:00:00 2025 GMT,Nov 19 23:59:59 2026 GMT,71
+beta.honda.gaadi.com,CN = beta.honda.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Oct 21 00:00:00 2025 GMT,Nov 19 23:59:59 2026 GMT,70
 beta.hondacdn.gaadi.com,N/A,N/A,N/A,N/A,N/A
 beta.images10.gaadi.com,N/A,N/A,N/A,N/A,N/A
 beta.inspection.gaadi.com,N/A,N/A,N/A,N/A,N/A
-beta.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,154
+beta.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,153
 betafcaapi.gaadi.com,N/A,N/A,N/A,N/A,N/A
 betainspectioncdn.gaadi.com,N/A,N/A,N/A,N/A,N/A
 bhasinmotors.gaadi.com,N/A,N/A,N/A,N/A,N/A
 bikecdn.gaadi.com,N/A,N/A,N/A,N/A,N/A
-bikedekho-prod-lb.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,47
-bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Apr 23 00:00:00 2026 GMT,Nov 6 23:59:59 2026 GMT,58
+bikedekho-prod-lb.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,46
+bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Apr 23 00:00:00 2026 GMT,Nov 6 23:59:59 2026 GMT,57
 bikesales-qa.bikedekho.com,N/A,N/A,N/A,N/A,N/A
-bikesales.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+bikesales.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 bir.gaadi.com,N/A,N/A,N/A,N/A,N/A
 blog.apis.cardekho.com,N/A,N/A,N/A,N/A,N/A
 blog.bikedekho.com,N/A,N/A,N/A,N/A,N/A
@@ -119,37 +119,37 @@ blog.cardekho.com,N/A,N/A,N/A,N/A,N/A
 blog.gaadi.com,N/A,N/A,N/A,N/A,N/A
 blogcars.gaadi.com,N/A,N/A,N/A,N/A,N/A
 blogs-rupyy-pp.gaadi.com,N/A,N/A,N/A,N/A,N/A
-blogs.revv.co.in,CN = blogs.revv.co.in,C = US; O = Let's Encrypt; CN = YR1,Aug 13 22:12:14 2026 GMT,Nov 11 22:12:13 2026 GMT,63
+blogs.revv.co.in,CN = blogs.revv.co.in,C = US; O = Let's Encrypt; CN = YR1,Aug 13 22:12:14 2026 GMT,Nov 11 22:12:13 2026 GMT,62
 blogs.rupyy.com,N/A,N/A,N/A,N/A,N/A
 bob.gaadi.com,N/A,N/A,N/A,N/A,N/A
 boi-contentapi.gaadi.com,N/A,N/A,N/A,N/A,N/A
 bridgestone.zigwheels.com,N/A,N/A,N/A,N/A,N/A
-btimg.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 10 00:00:00 2026 GMT,Dec 24 23:59:59 2026 GMT,106
-btstatic.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 10 00:00:00 2026 GMT,Dec 24 23:59:59 2026 GMT,106
-buscdn.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-buses.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-busimg.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
+btimg.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 10 00:00:00 2026 GMT,Dec 24 23:59:59 2026 GMT,105
+btstatic.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 10 00:00:00 2026 GMT,Dec 24 23:59:59 2026 GMT,105
+buscdn.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+buses.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+busimg.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
 business.revv.co.in,N/A,N/A,N/A,N/A,N/A
-calltracker.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Oct 20 00:00:00 2025 GMT,Nov 18 23:59:59 2026 GMT,70
+calltracker.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Oct 20 00:00:00 2025 GMT,Nov 18 23:59:59 2026 GMT,69
 canarabank.gaadi.com,N/A,N/A,N/A,N/A,N/A
 car-registration.rupyy.com,N/A,N/A,N/A,N/A,N/A
-cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 7 00:00:00 2026 GMT,Oct 21 23:59:59 2026 GMT,42
-careers.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 7 00:00:00 2026 GMT,Oct 21 23:59:59 2026 GMT,41
+careers.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 cargiant.gaadi.com,N/A,N/A,N/A,N/A,N/A
-cars24.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
+cars24.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
 carsales-qa.cardekho.com,N/A,N/A,N/A,N/A,N/A
-carsales.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+carsales.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 cdn.auctions.cardekho.com,N/A,N/A,N/A,N/A,N/A
-cdn.bikedekho.com,CN = imgcdn.oto.com.sg,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jul 11 00:00:00 2026 GMT,Jan 24 23:59:59 2027 GMT,137
+cdn.bikedekho.com,CN = imgcdn.oto.com.sg,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jul 11 00:00:00 2026 GMT,Jan 24 23:59:59 2027 GMT,136
 cdn.gaadi.com,N/A,N/A,N/A,N/A,N/A
-cdn.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+cdn.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 cdnautofinance.cardekho.com,N/A,N/A,N/A,N/A,N/A
 ceatdev.gaadi.com,N/A,N/A,N/A,N/A,N/A
-channelpartnerutility.com,CN = *.channelpartnerutility.com,C = GB; O = Sectigo Limited; CN = Sectigo Public Server Authentication CA DV R36,Jun 15 00:00:00 2026 GMT,Dec 30 23:59:59 2026 GMT,112
+channelpartnerutility.com,CN = *.channelpartnerutility.com,C = GB; O = Sectigo Limited; CN = Sectigo Public Server Authentication CA DV R36,Jun 15 00:00:00 2026 GMT,Dec 30 23:59:59 2026 GMT,111
 ci.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 cipher.rupyy.com,N/A,N/A,N/A,N/A,N/A
 cis.cardekho.com,N/A,N/A,N/A,N/A,N/A
-client.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,154
+client.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,153
 cloud.apis.cardekho.com,N/A,N/A,N/A,N/A,N/A
 cloud.channelpartnerutility.com,N/A,N/A,N/A,N/A,N/A
 comoapi.cardekho.com,N/A,N/A,N/A,N/A,N/A
@@ -162,38 +162,39 @@ connxdevfrontendtest.gaadi.com,N/A,N/A,N/A,N/A,N/A
 connxdevtest.gaadi.com,N/A,N/A,N/A,N/A,N/A
 connxncd.gaadi.com,N/A,N/A,N/A,N/A,N/A
 connxv2frontendtest.gaadi.com,N/A,N/A,N/A,N/A,N/A
-contracts.girnarsoft.co.in,CN = contracts.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR1,Aug 26 16:41:39 2026 GMT,Nov 24 16:41:38 2026 GMT,76
-cs.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-cvapi.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Mar 23 00:00:00 2026 GMT,Oct 6 23:59:59 2026 GMT,27
-cvimg1.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-dashboard-api.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 24 00:00:00 2026 GMT,Feb 6 23:59:59 2027 GMT,150
-dashboard.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,154
-de-dev.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+contracts.girnarsoft.co.in,CN = contracts.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR1,Aug 26 16:41:39 2026 GMT,Nov 24 16:41:38 2026 GMT,75
+cs.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+cvapi.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Mar 23 00:00:00 2026 GMT,Oct 6 23:59:59 2026 GMT,26
+cvimg1.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+dashboard-api.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 24 00:00:00 2026 GMT,Feb 6 23:59:59 2027 GMT,149
+dashboard.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,153
+de-dev.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 de-preprod.rupyy.com,N/A,N/A,N/A,N/A,N/A
-de.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
-dealeradmin.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
-dealerapis.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
-dealercentral.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
+de.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
+dealeradmin.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
+dealerapis.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
+dealercentral.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
 dealership.gaadi.com,N/A,N/A,N/A,N/A,N/A
 dealersites.cardekho.com,N/A,N/A,N/A,N/A,N/A
 dealersolutions.cardekho.com,N/A,N/A,N/A,N/A,N/A
-dealerstatic10.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
+dealerstatic10.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
 dealertech.cardekho.com,N/A,N/A,N/A,N/A,N/A
 dealsandwheels.gaadi.com,N/A,N/A,N/A,N/A,N/A
 demo.cardekho.com,N/A,N/A,N/A,N/A,N/A
+demo.website.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 demoford.gaadi.com,N/A,N/A,N/A,N/A,N/A
-demolms.girnarsoft.co.in,CN = demolms.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR2,Jul 25 15:23:40 2026 GMT,Oct 23 15:23:39 2026 GMT,44
+demolms.girnarsoft.co.in,CN = demolms.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR2,Jul 25 15:23:40 2026 GMT,Oct 23 15:23:39 2026 GMT,43
 demonewcars.gaadi.com,N/A,N/A,N/A,N/A,N/A
-desh.girnarsoft.co.in,CN = desh.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR1,Jul 25 15:23:52 2026 GMT,Oct 23 15:23:51 2026 GMT,44
+desh.girnarsoft.co.in,CN = desh.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR1,Jul 25 15:23:52 2026 GMT,Oct 23 15:23:51 2026 GMT,43
 dev-cis.cardekho.com,N/A,N/A,N/A,N/A,N/A
 dev.gaadi.com,N/A,N/A,N/A,N/A,N/A
 dev1.gaadi.com,N/A,N/A,N/A,N/A,N/A
-dev4.admin.revv.co.in,CN = *.jyotishai.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Aug 16 00:00:00 2026 GMT,Mar 1 23:59:59 2027 GMT,173
+dev4.admin.revv.co.in,CN = *.jyotishai.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Aug 16 00:00:00 2026 GMT,Mar 1 23:59:59 2027 GMT,172
 developers.client.revv.co.in,N/A,N/A,N/A,N/A,N/A
 devgrowth.gaadi.com,N/A,N/A,N/A,N/A,N/A
 digibuddy-api-dev1.rupyy.com,N/A,N/A,N/A,N/A,N/A
-digibuddy-api-qa1.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
-digibuddy-api.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+digibuddy-api-qa1.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
+digibuddy-api.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 docclassifier-staging.rupyy.com,N/A,N/A,N/A,N/A,N/A
 downloads.apis.cardekho.com,N/A,N/A,N/A,N/A,N/A
 downloads.images10.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -234,22 +235,22 @@ finance.cardekho.com,N/A,N/A,N/A,N/A,N/A
 finance.gaadi.com,N/A,N/A,N/A,N/A,N/A
 finance.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 financeproapi.gaadi.com,N/A,N/A,N/A,N/A,N/A
-fincare-staging.girnarsoft.co.in,CN = *.girnarsoft.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 15 00:00:00 2026 GMT,Dec 29 23:59:59 2026 GMT,111
-fincare.girnarsoft.co.in,CN = *.girnarsoft.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 15 00:00:00 2026 GMT,Dec 29 23:59:59 2026 GMT,111
+fincare-staging.girnarsoft.co.in,CN = *.girnarsoft.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 15 00:00:00 2026 GMT,Dec 29 23:59:59 2026 GMT,110
+fincare.girnarsoft.co.in,CN = *.girnarsoft.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 15 00:00:00 2026 GMT,Dec 29 23:59:59 2026 GMT,110
 firstcars.gaadi.com,N/A,N/A,N/A,N/A,N/A
-firstcars.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+firstcars.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 fk.cardekho.com,N/A,N/A,N/A,N/A,N/A
 fkapi.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 fordassured.gaadi.com,N/A,N/A,N/A,N/A,N/A
 forum.cardekho.com,N/A,N/A,N/A,N/A,N/A
-fs-auth.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
-fs-qr-code.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 24 00:00:00 2026 GMT,Feb 6 23:59:59 2027 GMT,150
-fs-rupyy-api.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
-fsbankapi.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 24 00:00:00 2026 GMT,Feb 6 23:59:59 2027 GMT,150
+fs-auth.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
+fs-qr-code.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 24 00:00:00 2026 GMT,Feb 6 23:59:59 2027 GMT,149
+fs-rupyy-api.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
+fsbankapi.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 24 00:00:00 2026 GMT,Feb 6 23:59:59 2027 GMT,149
 fsmw-staging.rupyy.com,N/A,N/A,N/A,N/A,N/A
 fsmw.gaadi.com,N/A,N/A,N/A,N/A,N/A
 g-assests.gaadi.com,N/A,N/A,N/A,N/A,N/A
-gaadi.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 1 00:00:00 2026 GMT,Mar 17 23:59:59 2027 GMT,189
+gaadi.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 1 00:00:00 2026 GMT,Mar 17 23:59:59 2027 GMT,188
 gaadisales.cardekho.com,N/A,N/A,N/A,N/A,N/A
 gamma.revv.co.in,N/A,N/A,N/A,N/A,N/A
 gbv.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -257,7 +258,7 @@ gcd1129.gaadi.com,N/A,N/A,N/A,N/A,N/A
 gcd1976.gaadi.com,N/A,N/A,N/A,N/A,N/A
 gcd36423.gaadi.com,N/A,N/A,N/A,N/A,N/A
 gcd67009.gaadi.com,N/A,N/A,N/A,N/A,N/A
-girnarsfa.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+girnarsfa.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 girnarsoft.co.in,N/A,N/A,N/A,N/A,N/A
 git.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 go.api.bikedekho.com,N/A,N/A,N/A,N/A,N/A
@@ -269,8 +270,8 @@ hdfcbank.gaadi.com,N/A,N/A,N/A,N/A,N/A
 hdfcbankpreowned.gaadi.com,N/A,N/A,N/A,N/A,N/A
 help.api.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 help.cardekho.com,N/A,N/A,N/A,N/A,N/A
-hindi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-hindi.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+hindi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+hindi.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 hindi.staging.cardekho.com,N/A,N/A,N/A,N/A,N/A
 home.api.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 honda-thai-dev.cardekho.com,N/A,N/A,N/A,N/A,N/A
@@ -278,19 +279,19 @@ honda-thai-uat.cardekho.com,CN = *.cardekho.com,C = US; O = GoDaddy.com; CN = Go
 honda.gaadi.com,N/A,N/A,N/A,N/A,N/A
 hondalms.gaadi.com,N/A,N/A,N/A,N/A,N/A
 hub.bikedekho.com,N/A,N/A,N/A,N/A,N/A
-ia-tracker.girnarsoft.co.in,CN = ia-tracker.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR1,Aug 6 10:29:36 2026 GMT,Nov 4 10:29:35 2026 GMT,56
+ia-tracker.girnarsoft.co.in,CN = ia-tracker.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR1,Aug 6 10:29:36 2026 GMT,Nov 4 10:29:35 2026 GMT,55
 icicibank.gaadi.com,N/A,N/A,N/A,N/A,N/A
 idfcfirstbank.gaadi.com,N/A,N/A,N/A,N/A,N/A
-idfcfirstbank.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
-images-microsite.girnarsoft.co.in,CN = images-microsite.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE2,Jul 24 18:31:31 2026 GMT,Oct 22 18:31:30 2026 GMT,43
-images.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,47
-images.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
+idfcfirstbank.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
+images-microsite.girnarsoft.co.in,CN = images-microsite.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE2,Jul 24 18:31:31 2026 GMT,Oct 22 18:31:30 2026 GMT,42
+images.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,46
+images.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
 images.dealersites.cardekho.com,N/A,N/A,N/A,N/A,N/A
-images0.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-images1.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-images10.gaadi.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-images11.gaadi.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-images2.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
+images0.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+images1.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+images10.gaadi.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+images11.gaadi.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+images2.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
 images3.cardekho.com,N/A,N/A,N/A,N/A,N/A
 imap.cardekho.com,N/A,N/A,N/A,N/A,N/A
 imap.images10.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -300,19 +301,19 @@ imgcdn1.gaadi.com,N/A,N/A,N/A,N/A,N/A
 imgcdn2.gaadi.com,N/A,N/A,N/A,N/A,N/A
 indsads.gaadi.com,N/A,N/A,N/A,N/A,N/A
 indusindbank.gaadi.com,N/A,N/A,N/A,N/A,N/A
-inspection-lms.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
-inspection.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
+inspection-lms.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
+inspection.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
 inspectionnew.gaadi.com,N/A,N/A,N/A,N/A,N/A
 inspectiontest.gaadi.com,N/A,N/A,N/A,N/A,N/A
 inspectionwaftest.gaadi.com,N/A,N/A,N/A,N/A,N/A
-insportal.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
+insportal.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
 int.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 int.cardekho.com,N/A,N/A,N/A,N/A,N/A
 intain.rupyy.com,N/A,N/A,N/A,N/A,N/A
 internal.channelpartnerutility.com,N/A,N/A,N/A,N/A,N/A
 jenkins.apis.cardekho.com,N/A,N/A,N/A,N/A,N/A
 k8s.api.bikedekho.com,N/A,N/A,N/A,N/A,N/A
-kannada.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+kannada.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 kannada.staging.cardekho.com,N/A,N/A,N/A,N/A,N/A
 lakshmifords.gaadi.com,N/A,N/A,N/A,N/A,N/A
 leadbox.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -321,7 +322,7 @@ linex-beta.gaadi.com,N/A,N/A,N/A,N/A,N/A
 linex-dev.gaadi.com,N/A,N/A,N/A,N/A,N/A
 linex.gaadi.com,N/A,N/A,N/A,N/A,N/A
 linex.rupyy.com,N/A,N/A,N/A,N/A,N/A
-liquidice.girnarsoft.co.in,CN = *.girnarsoft.co.in,C = GB; O = Sectigo Limited; CN = Sectigo Public Server Authentication CA DV R36,Aug 11 00:00:00 2026 GMT,Feb 25 23:59:59 2027 GMT,169
+liquidice.girnarsoft.co.in,CN = *.girnarsoft.co.in,C = GB; O = Sectigo Limited; CN = Sectigo Public Server Authentication CA DV R36,Aug 11 00:00:00 2026 GMT,Feb 25 23:59:59 2027 GMT,168
 listing-hyd.cardekho.com,N/A,N/A,N/A,N/A,N/A
 live.api.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 lms-solution-qa.cardekho.com,N/A,N/A,N/A,N/A,N/A
@@ -335,19 +336,19 @@ loanalpha.gaadi.com,N/A,N/A,N/A,N/A,N/A
 loanapi.cardekho.com,N/A,N/A,N/A,N/A,N/A
 loanbox.gaadi.com,N/A,N/A,N/A,N/A,N/A
 login.cardekho.com,N/A,N/A,N/A,N/A,N/A
-logistic.girnarsoft.co.in,CN = logistic.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE1,Jul 19 15:18:31 2026 GMT,Oct 17 15:18:30 2026 GMT,38
+logistic.girnarsoft.co.in,CN = logistic.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE1,Jul 19 15:18:31 2026 GMT,Oct 17 15:18:30 2026 GMT,37
 logisticadmin.girnarsoft.co.in,CN = logisticadmin.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE2,Sep 2 05:27:23 2026 GMT,Dec 1 05:27:22 2026 GMT,82
-logisticsales.girnarsoft.co.in,CN = tapasya.girnarsoft.com,C = US; O = Let's Encrypt; CN = YE2,Jul 19 15:19:02 2026 GMT,Oct 17 15:19:01 2026 GMT,38
+logisticsales.girnarsoft.co.in,CN = tapasya.girnarsoft.com,C = US; O = Let's Encrypt; CN = YE2,Jul 19 15:19:02 2026 GMT,Oct 17 15:19:01 2026 GMT,37
 loyaltyadmin.cardekho.com,N/A,N/A,N/A,N/A,N/A
 lssez.girnarsoft.co.in,CN = *.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR1,Jul 2 07:21:53 2026 GMT,Sep 30 07:21:52 2026 GMT,20
 m.bikedekho.com,N/A,N/A,N/A,N/A,N/A
-m.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+m.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 m.gaadi.com,N/A,N/A,N/A,N/A,N/A
 m.hindi.cardekho.com,N/A,N/A,N/A,N/A,N/A
 m.malayalam.cardekho.com,N/A,N/A,N/A,N/A,N/A
 m.tamil.cardekho.com,N/A,N/A,N/A,N/A,N/A
 m.telugu.cardekho.com,N/A,N/A,N/A,N/A,N/A
-m.zigwheels.com,CN = zigcdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,May 28 00:00:00 2026 GMT,Dec 11 23:59:59 2026 GMT,93
+m.zigwheels.com,CN = zigcdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,May 28 00:00:00 2026 GMT,Dec 11 23:59:59 2026 GMT,92
 magento.cardekho.com,N/A,N/A,N/A,N/A,N/A
 mail.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 mail.cardekho.com,N/A,N/A,N/A,N/A,N/A
@@ -358,7 +359,7 @@ mail.shop.cardekho.com,N/A,N/A,N/A,N/A,N/A
 mail.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 mail1.gaadi.com,N/A,N/A,N/A,N/A,N/A
 mail2.gaadi.com,N/A,N/A,N/A,N/A,N/A
-malayalam.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+malayalam.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 malayalam.staging.cardekho.com,N/A,N/A,N/A,N/A,N/A
 malikmaxmarketing.gaadi.com,N/A,N/A,N/A,N/A,N/A
 malyalam.cardekho.com,N/A,N/A,N/A,N/A,N/A
@@ -366,19 +367,17 @@ marketing.cardekho.com,N/A,N/A,N/A,N/A,N/A
 marketingfb.cardekho.com,N/A,N/A,N/A,N/A,N/A
 maruti.cardekho.com,N/A,N/A,N/A,N/A,N/A
 marutimumbai.cardekho.com,N/A,N/A,N/A,N/A,N/A
+mcdn.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 mcprod.cardekho.com,N/A,N/A,N/A,N/A,N/A
 mcstaging.cardekho.com,N/A,N/A,N/A,N/A,N/A
-meadmin.zigwheels.com,N/A,N/A,N/A,N/A,N/A
-meblog.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 media.api.bikedekho.com,N/A,N/A,N/A,N/A,N/A
-media.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-media.zigwheels.com,CN = zigcdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,May 28 00:00:00 2026 GMT,Dec 11 23:59:59 2026 GMT,93
+media.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+media.zigwheels.com,CN = zigcdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,May 28 00:00:00 2026 GMT,Dec 11 23:59:59 2026 GMT,92
 mediakit.cardekho.com,N/A,N/A,N/A,N/A,N/A
-meenquiry.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 metroford.gaadi.com,N/A,N/A,N/A,N/A,N/A
 mg360.gaadi.com,N/A,N/A,N/A,N/A,N/A
 microsite.gaadi.com,N/A,N/A,N/A,N/A,N/A
-mid-day.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+mid-day.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 minimicrosite.gaadi.com,N/A,N/A,N/A,N/A,N/A
 mobile.cardekho.com,N/A,N/A,N/A,N/A,N/A
 mohansmotors.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -386,12 +385,12 @@ mrcar.gaadi.com,N/A,N/A,N/A,N/A,N/A
 mrcarms.hdfcbankpreowned.gaadi.com,N/A,N/A,N/A,N/A,N/A
 mx.cardekho.com,N/A,N/A,N/A,N/A,N/A
 mygaadistage.gaadi.com,N/A,N/A,N/A,N/A,N/A
-nbsdealer.girnarsoft.co.in,CN = nbsdealer.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE1,Jul 24 18:31:45 2026 GMT,Oct 22 18:31:44 2026 GMT,43
+nbsdealer.girnarsoft.co.in,CN = nbsdealer.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE1,Jul 24 18:31:45 2026 GMT,Oct 22 18:31:44 2026 GMT,42
 nct-prod.cardekho.com,N/A,N/A,N/A,N/A,N/A
-newbusapi.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+newbusapi.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 newcars.gaadi.com,N/A,N/A,N/A,N/A,N/A
-newcvapi.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-nonautocrm.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+newcvapi.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+nonautocrm.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 notification.rupyy.com,N/A,N/A,N/A,N/A,N/A
 ns1.api.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 ns2.images10.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -406,13 +405,12 @@ orchidford.gaadi.com,N/A,N/A,N/A,N/A,N/A
 origin-girnarsfa.bikedekho.com,CN = origin-girnarsfa.bikedekho.com,C = US; O = Let's Encrypt; CN = YE2,Aug 25 05:27:47 2026 GMT,Nov 23 05:27:46 2026 GMT,74
 oto.gaadi.com,N/A,N/A,N/A,N/A,N/A
 partner-dr.rupyy.com,N/A,N/A,N/A,N/A,N/A
-partner.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+partner.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 partner1.rupyy.com,N/A,N/A,N/A,N/A,N/A
 partneradmin-dr.rupyy.com,N/A,N/A,N/A,N/A,N/A
 partneradmin-new.rupyy.com,N/A,N/A,N/A,N/A,N/A
-partneradmin.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+partneradmin.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 partneradmin1.rupyy.com,N/A,N/A,N/A,N/A,N/A
-pay.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 paymentboxstage.gaadi.com,N/A,N/A,N/A,N/A,N/A
 paymentboxstage2.gaadi.com,N/A,N/A,N/A,N/A,N/A
 payoututility.cardekho.com,N/A,N/A,N/A,N/A,N/A
@@ -422,7 +420,7 @@ piaggio-commercial.girnarsoft.co.in,CN = piagio-p.iskodekho.com,C = US; O = Let'
 piaggiobooking.girnarsoft.co.in,N/A,N/A,N/A,N/A,N/A
 polo.cardekho.com,N/A,N/A,N/A,N/A,N/A
 ponbharathford.gaadi.com,N/A,N/A,N/A,N/A,N/A
-preprod.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
+preprod.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
 preview.apis.cardekho.com,N/A,N/A,N/A,N/A,N/A
 preview.cdn.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 primeford.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -440,8 +438,8 @@ pulseapi-qa2.rupyy.com,N/A,N/A,N/A,N/A,N/A
 pulseapi.rupyy.com,N/A,N/A,N/A,N/A,N/A
 pwa.cardekho.com,N/A,N/A,N/A,N/A,N/A
 qa.zigwheels.com,N/A,N/A,N/A,N/A,N/A
-qc.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-qc1.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+qc.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+qc1.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 qc11privatewebapi.gaadi.com,N/A,N/A,N/A,N/A,N/A
 qc2.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 qc2webapi.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -456,15 +454,15 @@ qsee.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 r.emailers.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 r.revv.co.in,CN = r.revv.co.in,C = US; O = Let's Encrypt; CN = YR1,Sep 5 08:04:58 2026 GMT,Dec 4 08:04:57 2026 GMT,85
 rabbitmq.revv.co.in,N/A,N/A,N/A,N/A,N/A
-revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
+revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
 rupyy-alpha.gaadi.com,N/A,N/A,N/A,N/A,N/A
 rupyy-dev.gaadi.com,N/A,N/A,N/A,N/A,N/A
 rupyy-pp.gaadi.com,N/A,N/A,N/A,N/A,N/A
 rupyy-qa.gaadi.com,N/A,N/A,N/A,N/A,N/A
 rupyy-staging.gaadi.com,N/A,N/A,N/A,N/A,N/A
 rupyy-uat.gaadi.com,N/A,N/A,N/A,N/A,N/A
-rupyy.com,CN = rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Nov 20 00:00:00 2025 GMT,Dec 19 23:59:59 2026 GMT,101
-s.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+rupyy.com,CN = rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Nov 20 00:00:00 2025 GMT,Dec 19 23:59:59 2026 GMT,100
+s.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 sa.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 safetymonth.cardekho.com,N/A,N/A,N/A,N/A,N/A
 sainathford.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -474,54 +472,54 @@ satyamford.gaadi.com,N/A,N/A,N/A,N/A,N/A
 sbi.gaadi.com,N/A,N/A,N/A,N/A,N/A
 scala.gaadi.com,N/A,N/A,N/A,N/A,N/A
 secure.cdn.bikedekho.com,N/A,N/A,N/A,N/A,N/A
-seems.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+seems.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 services.cardekho.com,N/A,N/A,N/A,N/A,N/A
 servicestaging.cardekho.com,N/A,N/A,N/A,N/A,N/A
 sfaapp.gaadi.com,N/A,N/A,N/A,N/A,N/A
-sfausedcar.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
+sfausedcar.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
 shop.cardekho.com,N/A,N/A,N/A,N/A,N/A
 shopimg1.cardekho.com,N/A,N/A,N/A,N/A,N/A
 shopstaging.gaadi.com,N/A,N/A,N/A,N/A,N/A
-smsgateway.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 smtp.cardekho.com,N/A,N/A,N/A,N/A,N/A
 solapurford.gaadi.com,N/A,N/A,N/A,N/A,N/A
-spinny.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
+spinny.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
 stagelmsconnx2.gaadi.com,N/A,N/A,N/A,N/A,N/A
+staging-audit-lifecycle.girnarsoft.co.in,CN = staging-audit-lifecycle.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR2,Sep 9 10:27:24 2026 GMT,Dec 8 10:27:23 2026 GMT,89
 staging-gaadi.cardekho.com,N/A,N/A,N/A,N/A,N/A
-staging-ia-tracker.girnarsoft.co.in,CN = staging-ia-tracker.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR1,Jul 20 09:47:08 2026 GMT,Oct 18 09:47:07 2026 GMT,39
-staging-liquidice.girnarsoft.co.in,CN = *.girnarsoft.co.in,C = GB; O = Sectigo Limited; CN = Sectigo Public Server Authentication CA DV R36,Aug 11 00:00:00 2026 GMT,Feb 25 23:59:59 2027 GMT,169
-staging.admin.revv.co.in,CN = dailystylez.com,C = US; O = Let's Encrypt; CN = YE1,Aug 25 19:19:15 2026 GMT,Nov 23 19:19:14 2026 GMT,75
-staging.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+staging-ia-tracker.girnarsoft.co.in,CN = staging-ia-tracker.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YR1,Jul 20 09:47:08 2026 GMT,Oct 18 09:47:07 2026 GMT,38
+staging-liquidice.girnarsoft.co.in,CN = *.girnarsoft.co.in,C = GB; O = Sectigo Limited; CN = Sectigo Public Server Authentication CA DV R36,Aug 11 00:00:00 2026 GMT,Feb 25 23:59:59 2027 GMT,168
+staging.admin.revv.co.in,CN = dailystylez.com,C = US; O = Let's Encrypt; CN = YE1,Aug 25 19:19:15 2026 GMT,Nov 23 19:19:14 2026 GMT,74
+staging.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 staging.channelpartnerutility.com,N/A,N/A,N/A,N/A,N/A
 staging.gaadi.com,N/A,N/A,N/A,N/A,N/A
 staging.m.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 staging.revv.co.in,N/A,N/A,N/A,N/A,N/A
-staging.shgdfhgs.revv.co.in,CN = dailystylez.com,C = US; O = Let's Encrypt; CN = YE1,Aug 25 19:19:15 2026 GMT,Nov 23 19:19:14 2026 GMT,75
-staging.staticdb.cardekho.com,CN = *.staticdb.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jul 8 00:00:00 2026 GMT,Jan 21 23:59:59 2027 GMT,134
-staging.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+staging.shgdfhgs.revv.co.in,CN = dailystylez.com,C = US; O = Let's Encrypt; CN = YE1,Aug 25 19:19:15 2026 GMT,Nov 23 19:19:14 2026 GMT,74
+staging.staticdb.cardekho.com,CN = *.staticdb.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jul 8 00:00:00 2026 GMT,Jan 21 23:59:59 2027 GMT,133
+staging.zigwheels.com,CN = zigwheels.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 staging1.admin.revv.co.in,N/A,N/A,N/A,N/A,N/A
 staging1.cardekho.com,N/A,N/A,N/A,N/A,N/A
 staging1.dashboard.revv.co.in,N/A,N/A,N/A,N/A,N/A
 staging1.revv.co.in,N/A,N/A,N/A,N/A,N/A
 staging2.cardekho.com,N/A,N/A,N/A,N/A,N/A
-stagingcareers.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+stagingcareers.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 stagingstatic.cardekho.com,N/A,N/A,N/A,N/A,N/A
 stagingweb.cardekho.com,N/A,N/A,N/A,N/A,N/A
 static.bikedekho.com,N/A,N/A,N/A,N/A,N/A
-static.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 10 00:00:00 2026 GMT,Dec 24 23:59:59 2026 GMT,106
-static.zigwheels.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-static1.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,47
-static2.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,47
-static3.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,47
-staticalpha.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-staticcont.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 10 00:00:00 2026 GMT,Dec 24 23:59:59 2026 GMT,106
-staticdb.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+static.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 10 00:00:00 2026 GMT,Dec 24 23:59:59 2026 GMT,105
+static.zigwheels.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+static1.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,46
+static2.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,46
+static3.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,46
+staticalpha.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+staticcont.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 10 00:00:00 2026 GMT,Dec 24 23:59:59 2026 GMT,105
+staticdb.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 stats.cardekho.com,N/A,N/A,N/A,N/A,N/A
 stc1.cardekho.com,N/A,N/A,N/A,N/A,N/A
-stgstatic.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Mar 23 00:00:00 2026 GMT,Oct 6 23:59:59 2026 GMT,27
-stgstc.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-stimg.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-stimg2.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
+stgstatic.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Mar 23 00:00:00 2026 GMT,Oct 6 23:59:59 2026 GMT,26
+stgstc.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+stimg.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+stimg2.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
 stockscanner.gaadi.com,N/A,N/A,N/A,N/A,N/A
 storage.channelpartnerutility.com,N/A,N/A,N/A,N/A,N/A
 store.api.bikedekho.com,N/A,N/A,N/A,N/A,N/A
@@ -532,15 +530,15 @@ support.api.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 support.apis.cardekho.com,N/A,N/A,N/A,N/A,N/A
 swopanything.girnarsoft.co.in,CN = swopanything.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE1,Aug 15 05:29:16 2026 GMT,Nov 13 05:29:15 2026 GMT,64
 t-antony.girnarsoft.co.in,CN = t-antony.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE2,Aug 9 05:13:53 2026 GMT,Nov 7 05:13:52 2026 GMT,58
-tamil.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,47
-tamil.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+tamil.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,46
+tamil.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 tamil.staging.cardekho.com,N/A,N/A,N/A,N/A,N/A
 tata-aig.cardekho.com,N/A,N/A,N/A,N/A,N/A
 tdslave.cardekho.com,N/A,N/A,N/A,N/A,N/A
 tech.gaadi.com,N/A,N/A,N/A,N/A,N/A
-techsolution.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Oct 20 00:00:00 2025 GMT,Nov 18 23:59:59 2026 GMT,70
-telugu.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,47
-telugu.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+techsolution.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Oct 20 00:00:00 2025 GMT,Nov 18 23:59:59 2026 GMT,69
+telugu.bikedekho.com,CN = *.bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 12 00:00:00 2026 GMT,Oct 26 23:59:59 2026 GMT,46
+telugu.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 telugu.staging.cardekho.com,N/A,N/A,N/A,N/A,N/A
 test.bikedekho.com,N/A,N/A,N/A,N/A,N/A
 test.cardekho.com,N/A,N/A,N/A,N/A,N/A
@@ -551,65 +549,65 @@ test1-uct-fsa.revv.co.in,N/A,N/A,N/A,N/A,N/A
 test1.admin.revv.co.in,N/A,N/A,N/A,N/A,N/A
 test1.dashboard.revv.co.in,N/A,N/A,N/A,N/A,N/A
 test1.revv.co.in,N/A,N/A,N/A,N/A,N/A
-test2.admin.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,154
-test2.dashboard.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,154
-test2.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,154
+test2.admin.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,153
+test2.dashboard.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,153
+test2.revv.co.in,CN = *.revv.co.in,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 28 00:00:00 2026 GMT,Feb 10 23:59:59 2027 GMT,153
 test5.dashboard.revv.co.in,N/A,N/A,N/A,N/A,N/A
 test5.revv.co.in,N/A,N/A,N/A,N/A,N/A
 test7-dashboard.revv.co.in,N/A,N/A,N/A,N/A,N/A
 testauction-staging.cardekho.com,N/A,N/A,N/A,N/A,N/A
 testauction.cardekho.com,N/A,N/A,N/A,N/A,N/A
-testing.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+testing.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 testing.cardekho.com,N/A,N/A,N/A,N/A,N/A
 testing.revv.co.in,N/A,N/A,N/A,N/A,N/A
-testing1.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+testing1.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 testing1.girnarsoft.co.in,N/A,N/A,N/A,N/A,N/A
-testing2.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+testing2.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 testing2.girnarsoft.co.in,N/A,N/A,N/A,N/A,N/A
-testing3.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-testing4.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-testing5.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-testingapi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+testing3.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+testing4.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+testing5.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+testingapi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 testingapi1.bikedekho.com,CN = *.bikedekho.com,C = US; O = Let's Encrypt; CN = YR1,Jul 2 07:36:06 2026 GMT,Sep 30 07:36:05 2026 GMT,20
 testingapi2.bikedekho.com,CN = *.bikedekho.com,C = US; O = Let's Encrypt; CN = YR1,Jul 2 07:36:06 2026 GMT,Sep 30 07:36:05 2026 GMT,20
-testingapi4.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-testingapi5.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-testingcdn.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-testinghindi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+testingapi4.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+testingapi5.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+testingcdn.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+testinghindi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 testingmedia.cardekho.com,N/A,N/A,N/A,N/A,N/A
-testingpwa1.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa10.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa11.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
-testingpwa12.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa14.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa2.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa3.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa4.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,153
-testingpwa5.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa6.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa7.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa8.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-testingpwa9.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+testingpwa1.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa10.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa11.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
+testingpwa12.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa14.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa2.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa3.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa4.cardekho.com,CN = *.cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jul 27 00:00:00 2026 GMT,Feb 9 23:59:59 2027 GMT,152
+testingpwa5.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa6.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa7.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa8.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+testingpwa9.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 timesofindia.zigwheels.com,N/A,N/A,N/A,N/A,N/A
 titlebox.gaadi.com,N/A,N/A,N/A,N/A,N/A
 tookan.gaadi.com,N/A,N/A,N/A,N/A,N/A
 track.incadea-uat.cardekho.com,N/A,N/A,N/A,N/A,N/A
-trimg.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-trs.girnarsoft.co.in,CN = trs.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE1,Jul 22 00:09:51 2026 GMT,Oct 20 00:09:50 2026 GMT,40
-trstatic.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-truckcdn.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,43
-trucks-lms-qa.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-trucks.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+trimg.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+trs.girnarsoft.co.in,CN = trs.girnarsoft.co.in,C = US; O = Let's Encrypt; CN = YE1,Jul 22 00:09:51 2026 GMT,Oct 20 00:09:50 2026 GMT,39
+trstatic.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+truckcdn.cardekho.com,CN = gaadicdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Sep 23 00:00:00 2025 GMT,Oct 22 23:59:59 2026 GMT,42
+trucks-lms-qa.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+trucks.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 tvs.cardekho.com,N/A,N/A,N/A,N/A,N/A
 twl.idfcfirst.gaadi.com,N/A,N/A,N/A,N/A,N/A
 twlidfcfirst.gaadi.com,N/A,N/A,N/A,N/A,N/A
-twlidfcfirst.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,188
+twlidfcfirst.rupyy.com,CN = *.rupyy.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Aug 31 00:00:00 2026 GMT,Mar 16 23:59:59 2027 GMT,187
 tyrelms.cardekho.com,N/A,N/A,N/A,N/A,N/A
-tyres.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+tyres.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 tyresdev1.gaadi.com,N/A,N/A,N/A,N/A,N/A
-tyrewebform.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+tyrewebform.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 u003ewww.cardekho.com,N/A,N/A,N/A,N/A,N/A
-uat-apis.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
+uat-apis.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
 uat2-tm-ui.cardekho.com,N/A,N/A,N/A,N/A,N/A
 ub.gaadi.com,N/A,N/A,N/A,N/A,N/A
 ubnew.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -630,12 +628,12 @@ vinayakford.gaadi.com,N/A,N/A,N/A,N/A,N/A
 volkswagenmadras.gaadi.com,N/A,N/A,N/A,N/A,N/A
 vpn.cardekho.com,N/A,N/A,N/A,N/A,N/A
 vpn.channelpartnerutility.com,N/A,N/A,N/A,N/A,N/A
-wcm.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,50
+wcm.gaadi.com,CN = *.gaadi.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Apr 15 00:00:00 2026 GMT,Oct 29 23:59:59 2026 GMT,49
 web2.dsjgcfshd.revv.co.in,N/A,N/A,N/A,N/A,N/A
 webcontent.gaadi.com,N/A,N/A,N/A,N/A,N/A
-webform.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-webform.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,122
-webformnew.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+webform.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+webform.cardekho.com,CN = cardekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M01,Jun 26 00:00:00 2026 GMT,Jan 9 23:59:59 2027 GMT,121
+webformnew.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 webmail.cardekho.com,N/A,N/A,N/A,N/A,N/A
 webmail.images10.gaadi.com,N/A,N/A,N/A,N/A,N/A
 wildcard.auto.gaadi.com,N/A,N/A,N/A,N/A,N/A
@@ -645,9 +643,9 @@ wildcard.finance.gaadi.com,N/A,N/A,N/A,N/A,N/A
 wildcard.gaadi.com,N/A,N/A,N/A,N/A,N/A
 wildcard.honda.gaadi.com,N/A,N/A,N/A,N/A,N/A
 ww1.channelpartnerutility.com,N/A,N/A,N/A,N/A,N/A
-xbajajapi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
-xultraviolette.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,98
+xbajajapi.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
+xultraviolette.bikedekho.com,CN = bikedekho.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,Jun 2 00:00:00 2026 GMT,Dec 16 23:59:59 2026 GMT,97
 yashmotor.gaadi.com,N/A,N/A,N/A,N/A,N/A
 yesbank.cardekho.com,N/A,N/A,N/A,N/A,N/A
 yesbank.gaadi.com,N/A,N/A,N/A,N/A,N/A
-zigwheels.com,CN = zigcdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,May 28 00:00:00 2026 GMT,Dec 11 23:59:59 2026 GMT,93
+zigwheels.com,CN = zigcdn.com,C = US; O = Amazon; CN = Amazon RSA 2048 M04,May 28 00:00:00 2026 GMT,Dec 11 23:59:59 2026 GMT,92

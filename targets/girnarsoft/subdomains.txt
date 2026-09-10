@@ -180,6 +180,7 @@ dealerstatic10.gaadi.com
 dealertech.cardekho.com
 dealsandwheels.gaadi.com
 demo.cardekho.com
+demo.website.bikedekho.com
 demoford.gaadi.com
 demolms.girnarsoft.co.in
 demonewcars.gaadi.com
@@ -365,15 +366,13 @@ marketing.cardekho.com
 marketingfb.cardekho.com
 maruti.cardekho.com
 marutimumbai.cardekho.com
+mcdn.bikedekho.com
 mcprod.cardekho.com
 mcstaging.cardekho.com
-meadmin.zigwheels.com
-meblog.zigwheels.com
 media.api.bikedekho.com
 media.cardekho.com
 media.zigwheels.com
 mediakit.cardekho.com
-meenquiry.zigwheels.com
 metroford.gaadi.com
 mg360.gaadi.com
 microsite.gaadi.com
@@ -411,7 +410,6 @@ partneradmin-dr.rupyy.com
 partneradmin-new.rupyy.com
 partneradmin.rupyy.com
 partneradmin1.rupyy.com
-pay.zigwheels.com
 paymentboxstage.gaadi.com
 paymentboxstage2.gaadi.com
 payoututility.cardekho.com
@@ -481,11 +479,11 @@ sfausedcar.gaadi.com
 shop.cardekho.com
 shopimg1.cardekho.com
 shopstaging.gaadi.com
-smsgateway.zigwheels.com
 smtp.cardekho.com
 solapurford.gaadi.com
 spinny.gaadi.com
 stagelmsconnx2.gaadi.com
+staging-audit-lifecycle.girnarsoft.co.in
 staging-gaadi.cardekho.com
 staging-ia-tracker.girnarsoft.co.in
 staging-liquidice.girnarsoft.co.in
