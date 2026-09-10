@@ -1,4 +1,3 @@
-#include <regex.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -350,7 +349,12 @@ static void save_results(const char *path, ScanResults *r) {
 int main(int argc, char *argv[]) {
   if (argc < 3) {
     (void)fprintf(stderr,
-                  "Usage: killchain <IP|CIDR> <-|out.csv|out.json|out.xml>\n");
+                  "Usage: killchain <IP> <-|out.csv|out.json|out.xml>\n");
+    return EXIT_FAILURE;
+  }
+
+  if (!is_valid_ip(argv[1])) {
+    (void)fprintf(stderr, "Invalid IP: %s\n", argv[1]);
     return EXIT_FAILURE;
   }
 
@@ -370,7 +374,6 @@ int main(int argc, char *argv[]) {
   results_init(&results, argv[1], time_buffer);
 
   int ret = EXIT_SUCCESS;
-  int type = check_ip_or_subnet(argv[1]);
 
   /* ── Host-up check ── */
   printf("\nDo you want to check if host(s) are up? (y/n): ");
@@ -378,59 +381,17 @@ int main(int argc, char *argv[]) {
   printf("\n");
 
   if (consent == 'y' || consent == 'Y') {
-    if (type == 1) {
-      (void)fprintf(stdout, "IP address detected: %s\n\n", argv[1]);
-      long latency = ping(argv[1]);
-      (void)fprintf(stdout, "%-16s %-8s %s\n", "HOST", "STATUS", "LATENCY");
-      if (latency == -2) {
-        ret = EXIT_FAILURE;
-        goto cleanup;
-      } else if (latency >= 0) {
-        (void)fprintf(stdout, "%-16s UP      %4ld ms\n", argv[1], latency);
-        push_host(&results, argv[1], HOST_UP, latency);
-      } else {
-        (void)fprintf(stdout, "%-16s DOWN    %4ld ms\n", argv[1], latency);
-        push_host(&results, argv[1], HOST_DOWN, -1);
-      }
-
-    } else if (type == 2) {
-      (void)fprintf(stdout, "Subnet detected: %s\n", argv[1]);
-      int count;
-      char **ips = expand_subnet(argv[1], &count);
-      if (!ips || count <= 0) {
-        (void)fprintf(stdout, "No hosts to scan in subnet %s\n", argv[1]);
-        if (ips) {
-          for (int i = 0; i < count; i++)
-            free(ips[i]);
-          free((void *)ips);
-        }
-      } else {
-        long *latencies = ping_hosts(ips, count);
-        if (!latencies) {
-          (void)fprintf(stderr, "Failed to perform subnet ping scan.\n");
-          for (int i = 0; i < count; i++)
-            free(ips[i]);
-          free((void *)ips);
-          ret = EXIT_FAILURE;
-          goto cleanup;
-        }
-
-        (void)fprintf(stdout, "\n%-16s %-8s %s\n", "HOST", "STATUS", "LATENCY");
-        for (int i = 0; i < count; i++) {
-          if (latencies[i] >= 0) {
-            (void)fprintf(stdout, "%-16s UP      %4ld ms\n", ips[i],
-                          latencies[i]);
-            push_host(&results, ips[i], HOST_UP, latencies[i]);
-          } else {
-            push_host(&results, ips[i], HOST_DOWN, -1);
-          }
-          free(ips[i]);
-        }
-        free(latencies);
-        free((void *)ips);
-      }
+    long latency = ping(argv[1]);
+    (void)fprintf(stdout, "%-16s %-8s %s\n", "HOST", "STATUS", "LATENCY");
+    if (latency == -2) {
+      ret = EXIT_FAILURE;
+      goto cleanup;
+    } else if (latency >= 0) {
+      (void)fprintf(stdout, "%-16s UP      %4ld ms\n", argv[1], latency);
+      push_host(&results, argv[1], HOST_UP, latency);
     } else {
-      (void)fprintf(stdout, "Invalid IP or subnet: %s\n", argv[1]);
+      (void)fprintf(stdout, "%-16s DOWN    %4ld ms\n", argv[1], latency);
+      push_host(&results, argv[1], HOST_DOWN, -1);
     }
   }
 
@@ -440,63 +401,22 @@ int main(int argc, char *argv[]) {
   printf("\n");
 
   if (consent == 'y' || consent == 'Y') {
-    int scan_type = check_ip_or_subnet(argv[1]);
-    int found_total = 0;
-
-    if (scan_type == 1) {
-      int *ports = tcp_syn(argv[1]);
-      if (!ports) {
-        perror("tcp_syn");
-        ret = EXIT_FAILURE;
-        goto cleanup;
-      }
-
-      (void)printf("%-16s %-8s %s\n", "HOST", "PORT", "STATE");
-      int found = 0;
-      for (int i = 0; ports[i] != -1; i++) {
-        (void)printf("%-16s %-8d %s\n", argv[1], ports[i], "OPEN");
-        push_port(&results, argv[1], ports[i]);
-        found++;
-      }
-      (void)printf("\n%d open port(s) found.\n", found);
-      free(ports);
-
-    } else if (scan_type == 2) {
-      (void)fprintf(stdout, "Subnet detected: %s\n", argv[1]);
-      int count;
-      char **ips = expand_subnet(argv[1], &count);
-      if (!ips || count <= 0) {
-        (void)fprintf(stdout, "No hosts to scan in subnet %s\n", argv[1]);
-        if (ips) {
-          for (int i = 0; i < count; i++)
-            free(ips[i]);
-          free((void *)ips);
-        }
-      } else {
-        (void)printf("%-16s %-8s %s\n", "HOST", "PORT", "STATE");
-        for (int h = 0; h < count; h++) {
-          int *ports = tcp_syn(ips[h]);
-          if (!ports) {
-            (void)fprintf(stderr, "tcp_syn failed for %s\n", ips[h]);
-            continue;
-          }
-          int found = 0;
-          for (int p = 0; ports[p] != -1; p++) {
-            (void)printf("%-16s %-8d %s\n", ips[h], ports[p], "OPEN");
-            push_port(&results, ips[h], ports[p]);
-            found++;
-          }
-          found_total += found;
-          free(ports);
-        }
-        for (int i = 0; i < count; i++)
-          free(ips[i]);
-        free((void *)ips);
-        (void)printf("\n%d open port(s) found across subnet.\n", found_total);
-      }
-    } else {
-      (void)fprintf(stdout, "Invalid IP or subnet: %s\n", argv[1]);
+    int *ports = tcp_syn(argv[1]);
+    if (!ports) {
+      perror("tcp_syn");
+      ret = EXIT_FAILURE;
+      goto cleanup;
     }
+
+    (void)printf("%-16s %-8s %s\n", "HOST", "PORT", "STATE");
+    int found = 0;
+    for (int i = 0; ports[i] != -1; i++) {
+      (void)printf("%-16s %-8d %s\n", argv[1], ports[i], "OPEN");
+      push_port(&results, argv[1], ports[i]);
+      found++;
+    }
+    (void)printf("\n%d open port(s) found.\n", found);
+    free(ports);
   }
 
   /* ── Wrap up ── */

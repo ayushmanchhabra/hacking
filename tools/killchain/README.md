@@ -2,7 +2,7 @@
 
 Multithreaded network scanner that crafts raw IP/TCP packets by hand — no libpcap, no wrappers.
 
-Supports SYN port scanning and ICMP host discovery across single hosts and subnets, hardened with clang-tidy, Valgrind, and AddressSanitizer.
+Supports SYN port scanning and ICMP host discovery of a single IP, hardened with clang-tidy, Valgrind, and AddressSanitizer.
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ sudo apt install clang clang-format clang-tidy valgrind
 
 # API
 └─$ sudo ./out/bin/killchain
-Usage: killchain <IP|CIDR> <-|out.csv|out.json|out.xml>
+Usage: killchain <IP> <-|out.csv|out.json|out.xml>
 
 └─$ sudo ./out/bin/killchain 8.8.8.8 -
 [!] By using this tool you confirm you have explicit permission to test the target.
