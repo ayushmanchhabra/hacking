@@ -61,7 +61,7 @@ jobs:
       - name: Run script
         run: |
           sudo apt update
-          sudo apt install openssl
+          sudo apt install openssl nmap
           chmod +x ./tools/bugbounty/main.sh ./tools/bugbounty/src/*.sh
           # port.sh (invoked by main.sh) needs root for killchain's raw sockets;
           # run under sudo while preserving PATH so subfinder/openssl resolve.
