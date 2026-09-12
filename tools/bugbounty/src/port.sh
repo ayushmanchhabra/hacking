@@ -6,7 +6,7 @@
 # Runs the killchain SYN scanner against each IP and writes the open
 # ports as a comma-separated list per host. Requires root (killchain
 # needs raw sockets) and a built killchain binary (`cd ../../killchain
-# && make`).
+# && make`). IPv6 addresses are skipped: killchain only supports IPv4.
 
 if [ -z "$2" ]; then
   echo "Usage: $0 <ip|ips.txt> <output.csv>" >&2
@@ -58,6 +58,12 @@ trap 'rm -f "$tmp_csv"' EXIT
   echo "IP,PORTS"
 
   for ip in "${ips[@]}"; do
+    if [[ "$ip" == *:* ]]; then
+      echo "Skipping $ip (killchain only supports IPv4)" >&2
+      echo "$ip,SKIPPED-IPV6"
+      continue
+    fi
+
     echo "Scanning $ip..." >&2
     : > "$tmp_csv"
     printf 'y\nn\ny\n' | "$killchain_bin" "$ip" "$tmp_csv" >/dev/null 2>&1
