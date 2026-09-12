@@ -1,10 +1,18 @@
 URI,IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 170.178.144.136,170.178.144.136,170.178.144.136.customer.chinetworks.com,Chicago,Illinois,US,41.8500;-87.6500,AS18590 Chi Networks,60608,America/Chicago,https://ipinfo.io/missingauth,false
-2603:1036:303:3c01::2,2603:1036:303:3c01::2,NA,Boydton,Virginia,US,36.6676;-78.3875,AS8075 Microsoft Corporation,23917,America/New_York,https://ipinfo.io/missingauth,false
-2603:1036:303:3c08::2,2603:1036:303:3c08::2,NA,Boydton,Virginia,US,36.6676;-78.3875,AS8075 Microsoft Corporation,23917,America/New_York,https://ipinfo.io/missingauth,false
-2603:1036:303:3c0d::2,2603:1036:303:3c0d::2,NA,Boydton,Virginia,US,36.6676;-78.3875,AS8075 Microsoft Corporation,23917,America/New_York,https://ipinfo.io/missingauth,false
-2603:1036:303:3c16::2,2603:1036:303:3c16::2,NA,Boydton,Virginia,US,36.6676;-78.3875,AS8075 Microsoft Corporation,23917,America/New_York,https://ipinfo.io/missingauth,false
-52.96.165.210,52.96.165.210,NA,Boydton,Virginia,US,36.6676;-78.3875,AS8075 Microsoft Corporation,23917,America/New_York,https://ipinfo.io/missingauth,false
-52.96.173.210,52.96.173.210,NA,Boydton,Virginia,US,36.6676;-78.3875,AS8075 Microsoft Corporation,23917,America/New_York,https://ipinfo.io/missingauth,false
-52.96.189.18,52.96.189.18,NA,Boydton,Virginia,US,36.6676;-78.3875,AS8075 Microsoft Corporation,23917,America/New_York,https://ipinfo.io/missingauth,false
-52.96.97.162,52.96.97.162,NA,Boydton,Virginia,US,36.6676;-78.3875,AS8075 Microsoft Corporation,23917,America/New_York,https://ipinfo.io/missingauth,false
+2603:1036:30c:901::2,2603:1036:30c:901::2,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+2603:1036:30c:90b::2,2603:1036:30c:90b::2,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+2603:1036:30c:c75::2,2603:1036:30c:c75::2,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+2603:1036:30c:c81::2,2603:1036:30c:c81::2,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+2603:1036:30c:c85::2,2603:1036:30c:c85::2,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+2603:1036:30c:c93::2,2603:1036:30c:c93::2,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+2603:1036:903:47::6,2603:1036:903:47::6,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+2603:1036:903:49::,2603:1036:903:49::,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+40.104.2.130,40.104.2.130,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+40.104.2.18,40.104.2.18,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+40.104.23.146,40.104.23.146,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+40.97.63.128,40.97.63.128,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+40.99.229.242,40.99.229.242,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+52.96.104.194,52.96.104.194,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+52.96.104.210,52.96.104.210,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
+52.97.104.98,52.97.104.98,NA,Phoenix,Arizona,US,33.4484;-112.0740,AS8075 Microsoft Corporation,85003,America/Phoenix,https://ipinfo.io/missingauth,false
