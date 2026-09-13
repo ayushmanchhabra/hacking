@@ -1,6 +1,6 @@
-ayushmanchhabra.com,CN=ayushmanchhabra.com,C=US; O=Let's Encrypt; CN=YR2,Aug 18 05:33:21 2026 GMT,Nov 16 05:33:20 2026 GMT,63
-notes.ayushmanchhabra.com,O=comhostnew-proxy; CN=localhost,O=comhostnew-proxy; CN=localhost,Aug 14 19:07:07 2026 GMT,Aug 14 20:07:07 2036 GMT,3623
-ottermap-task.ayushmanchhabra.com,O=comhostnew-proxy; CN=localhost,O=comhostnew-proxy; CN=localhost,Aug 14 19:07:07 2026 GMT,Aug 14 20:07:07 2036 GMT,3623
-resume.ayushmanchhabra.com,O=comhostnew-proxy; CN=localhost,O=comhostnew-proxy; CN=localhost,Aug 14 19:07:07 2026 GMT,Aug 14 20:07:07 2036 GMT,3623
-tmg.ayushmanchhabra.com,O=comhostnew-proxy; CN=localhost,O=comhostnew-proxy; CN=localhost,Aug 14 19:07:07 2026 GMT,Aug 14 20:07:07 2036 GMT,3623
 URI,Cert Subject,Cert Issuer,Not Before,Not After,Days Until Expiry
+ayushmanchhabra.com,CN = ayushmanchhabra.com,C = US; O = Let's Encrypt; CN = YR2,Aug 18 05:33:21 2026 GMT,Nov 16 05:33:20 2026 GMT,63
+notes.ayushmanchhabra.com,N/A,N/A,N/A,N/A,N/A
+ottermap-task.ayushmanchhabra.com,N/A,N/A,N/A,N/A,N/A
+resume.ayushmanchhabra.com,N/A,N/A,N/A,N/A,N/A
+tmg.ayushmanchhabra.com,N/A,N/A,N/A,N/A,N/A

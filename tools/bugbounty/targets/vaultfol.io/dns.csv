@@ -1,0 +1,4 @@
+URI,DNS Record,DNS Value
+vaultfol.io,NS,"dns1.registrar-servers.com."
+vaultfol.io,NS,"dns2.registrar-servers.com."
+vaultfol.io,SOA,"dns1.registrar-servers.com. hostmaster.registrar-servers.com. 1784900443 43200 3600 604800 3601"
