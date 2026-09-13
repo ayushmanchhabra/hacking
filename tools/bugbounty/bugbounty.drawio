@@ -1,0 +1,45 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="wNd3FZsf2CuP1XeQ5YVZ">
+    <mxGraphModel dx="649" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-4" edge="1" parent="1" source="W7g3y_7Opu4WyAy5atIz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="W7g3y_7Opu4WyAy5atIz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="URL" vertex="1">
+          <mxGeometry height="80" width="80" x="280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-6" edge="1" parent="1" source="W7g3y_7Opu4WyAy5atIz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="W7g3y_7Opu4WyAy5atIz-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Subdomain enumeration" vertex="1">
+          <mxGeometry height="80" width="80" x="280" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-8" edge="1" parent="1" source="W7g3y_7Opu4WyAy5atIz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-11" edge="1" parent="1" source="W7g3y_7Opu4WyAy5atIz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="W7g3y_7Opu4WyAy5atIz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="DNS" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="IPDR" vertex="1">
+          <mxGeometry height="80" width="80" x="400" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-13" edge="1" parent="1" source="W7g3y_7Opu4WyAy5atIz-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="W7g3y_7Opu4WyAy5atIz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Ports s&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;canning&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="W7g3y_7Opu4WyAy5atIz-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="Service enumeration" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
