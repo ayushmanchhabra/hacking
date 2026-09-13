@@ -1,10 +1,11 @@
 #!/bin/bash
 #
-# Usage:  ./certcheck.sh <url|subdomains.txt> <output.csv>
-#         SHORT=1 ./certcheck.sh hosts.txt out.csv    # subject/issuer reduced to CN only
+# Usage:  ./crt.sh <url|subdomains.txt> <output.csv>
+#         SHORT=1 ./crt.sh sub.txt out.csv
 #
-# DNs contain commas (C=US, O=..., CN=...). Those become semicolons so
-# `column -t -s, out.csv` keeps one row per host.
+# Requires: openssl
+
+# TODO: certificate info is part of VA for a website which happens after service enumeration
 
 if [ -z "$2" ]; then
   echo "Usage: $0 <url|subdomains.txt> <output.csv>" >&2
@@ -39,15 +40,12 @@ if [[ "$1" == *.txt || "$1" == *.csv || "$1" == *.list || "$1" == */* ]] && [ ! 
 fi
 
 if [ -f "$1" ]; then
-  echo "Reading URIs from file: $1" >&2
   mapfile -t uris < <(tr -d '\r' < "$1" | grep -v '^[[:space:]]*$')
-  echo "Loaded ${#uris[@]} URI(s)" >&2
   if [ "${#uris[@]}" -eq 0 ]; then
     echo "Error: no URIs found in $1" >&2
     exit 1
   fi
 else
-  echo "Treating input as a single URI: $1" >&2
   uris=("$1")
 fi
 
@@ -98,5 +96,5 @@ fi
 sort -u "$2" -o "$2"
 
 echo
-echo "Certificate info written to $2"
+echo " [ INFO ] Certificate info written to $2"
 echo

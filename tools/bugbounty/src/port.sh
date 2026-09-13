@@ -1,25 +1,15 @@
 #!/bin/bash
 #
-# Usage: ./port.sh <ip|ips.txt> <output.csv>
-#        KILLCHAIN_BIN=/path/to/killchain ./port.sh ips.txt out.csv
+# Usage: ./port.sh <dns.csv> <output.csv>
+#        KILLCHAIN_BIN=/path/to/killchain ./port.sh <dns.csv> <output.csv>
 #
-# Runs the killchain SYN scanner against each IP and writes the open
-# ports as a comma-separated list per host. Requires root (killchain
-# needs raw sockets) and a built killchain binary (`cd ../../killchain
-# && make`). IPv6 addresses are skipped: killchain only supports IPv4.
+# Requires: killchain
 
-if [ -z "$2" ]; then
-  echo "Usage: $0 <ip|ips.txt> <output.csv>" >&2
-  exit 1
-fi
-
-if [[ "$2" != *.csv ]]; then
-  echo "Error: output file must have a .csv extension" >&2
-  exit 1
-fi
+input=$1
+outfile=$2
 
 if [ "$(id -u)" -ne 0 ]; then
-  echo "Error: killchain needs raw sockets, rerun this script as root/sudo." >&2
+  echo "Error: killchain needs raw sockets, rerun as root/sudo." >&2
   exit 1
 fi
 
@@ -27,59 +17,32 @@ script_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 killchain_bin="${KILLCHAIN_BIN:-$script_dir/../../killchain/out/bin/killchain}"
 
 if [ ! -x "$killchain_bin" ]; then
-  echo "Error: killchain binary not found at $killchain_bin" >&2
-  echo "Build it first: (cd $script_dir/../../killchain && make)" >&2
+  echo "Error: killchain binary not found at $killchain_bin (build: cd ${script_dir}/../../killchain && make)" >&2
   exit 1
 fi
 
-# Fail loudly if $1 looks like a file path but doesn't exist
-if [[ "$1" == *.txt || "$1" == *.csv || "$1" == *.list || "$1" == */* ]] && [ ! -f "$1" ]; then
-  echo "Error: file not found: $1" >&2
-  exit 1
-fi
+# Get URI,IP pairs from A records
+pairs=$(awk -F',' '$2=="A"{ip=$3; gsub(/"/,"",ip); print $1","ip}' "$input")
 
-if [ -f "$1" ]; then
-  echo "Reading IPs from file: $1" >&2
-  mapfile -t ips < <(tr -d '\r' < "$1" | grep -v '^[[:space:]]*$')
-  echo "Loaded ${#ips[@]} IP(s)" >&2
-  if [ "${#ips[@]}" -eq 0 ]; then
-    echo "Error: no IPs found in $1" >&2
-    exit 1
-  fi
-else
-  echo "Treating input as a single IP: $1" >&2
-  ips=("$1")
-fi
+# Scan each distinct IP once, cache ports by IP.
+declare -A PORTS
+scan=$(mktemp --suffix=.csv)
+trap 'rm -f "$scan"' EXIT
 
-tmp_csv=$(mktemp)
-trap 'rm -f "$tmp_csv"' EXIT
+while IFS= read -r ip; do
+  [ -n "$ip" ] || continue
+  : > "$scan"
+  printf 'y\ny\ny\n' | sudo "$killchain_bin" "$ip" "$scan" >/dev/null 2>&1
+  PORTS["$ip"]=$(awk -F',' '$1=="port"{print $3}' "$scan" | sort -nu | paste -sd, -)
+done < <(cut -d, -f2 <<< "$pairs" | sort -u | grep -v '^[[:space:]]*$')
 
 {
-  echo "IP,PORTS"
-
-  for ip in "${ips[@]}"; do
-    if [[ "$ip" == *:* ]]; then
-      echo "Skipping $ip (killchain only supports IPv4)" >&2
-      echo "$ip,SKIPPED-IPV6"
-      continue
-    fi
-
-    echo "Scanning $ip..." >&2
-    : > "$tmp_csv"
-    printf 'y\nn\ny\n' | "$killchain_bin" "$ip" "$tmp_csv" >/dev/null 2>&1
-
-    ports=$(grep '^port,' "$tmp_csv" | awk -F',' '{print $3}' | sort -nu | paste -sd, -)
-
-    if [ -n "$ports" ]; then
-      echo "$ip,\"$ports\""
-    else
-      echo "$ip,NA"
-    fi
-  done
-} > "$2"
-
-{ head -n 1 "$2"; tail -n +2 "$2" | sort -u; } > "$2.tmp" && mv "$2.tmp" "$2"
+  echo "URI,IP,Ports"
+  while IFS=, read -r uri ip; do
+    [ -n "$uri" ] || continue
+    echo "$uri,$ip,\"${PORTS[$ip]:-NA}\""
+  done <<< "$pairs" | sort -u
+} > "$outfile"
 
 echo
-echo "Port scan results written to $2"
-echo
+echo " [ INFO ] Port results written to $outfile"

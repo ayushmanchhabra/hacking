@@ -1,94 +1,47 @@
 #!/bin/bash
 #
-# Usage: ./srv.sh <ports.csv> <output.csv>
+# Usage: ./srv.sh <port.csv> <output.csv>
 #
-# Reads the IP,PORTS output of port.sh and runs `nmap -p <ports> <ip>`
-# against each host to identify the service behind each open port.
-# Hosts with no open ports (NA) or skipped IPv6 rows are ignored.
+# Requires: nmap
 
-if [ -z "$2" ]; then
-  echo "Usage: $0 <ports.csv> <output.csv>" >&2
-  exit 1
-fi
-
-if [[ "$2" != *.csv ]]; then
-  echo "Error: output file must have a .csv extension" >&2
-  exit 1
-fi
-
-if ! command -v nmap >/dev/null 2>&1; then
-  echo "Error: nmap not found in PATH." >&2
-  exit 1
-fi
-
-if [ ! -f "$1" ]; then
-  echo "Error: file not found: $1" >&2
-  exit 1
-fi
-
-echo "Reading ports from file: $1" >&2
-
-declare -A host_ports
-host_order=()
-
-while IFS=',' read -r uri ports; do
-  uri=$(tr -d '\r"' <<< "$uri")
-  ports=$(tr -d '\r"' <<< "$ports")
-
-  [ "$uri" = "IP" ] && continue
-  [ -z "$uri" ] && continue
-  [ "$ports" = "NA" ] && continue
-  [ "$ports" = "SKIPPED-IPV6" ] && continue
-
-  host_ports["$uri"]="$ports"
-  host_order+=("$uri")
-done < "$1"
-
-echo "Loaded ${#host_order[@]} host(s) with open ports" >&2
-
-if [ "${#host_order[@]}" -eq 0 ]; then
-  echo "Error: no hosts with open ports found in $1" >&2
-  exit 1
-fi
+input=$1
+outfile=$2
 
 {
-  echo "uri,port,service"
+  echo "URI,IP,port,service,version"
 
-  for uri in "${host_order[@]}"; do
-    ports="${host_ports[$uri]}"
-    echo "Scanning $uri (ports: $ports)..." >&2
+  while IFS=, read -r uri ip ports; do
+    uri=${uri//[$'\r'\"]/}
+    ip=${ip//[$'\r'\"]/}
+    ports=${ports//[$'\r'\"]/}
 
-    grepable=$(nmap -p "$ports" -oG - "$uri" 2>/dev/null | grep '^Host:')
+    case "$uri" in URI|"") continue ;; esac   # header / blank
+    case "$ports" in NA|"") continue ;; esac  # nothing to scan
 
-    if [ -z "$grepable" ]; then
-      echo "$uri,NA,NA"
-      continue
-    fi
-
-    ports_field=$(echo "$grepable" | grep -oP 'Ports:\s*\K.*')
-
-    if [ -z "$ports_field" ]; then
-      echo "$uri,NA,NA"
-      continue
-    fi
-
-    IFS=',' read -ra entries <<< "$ports_field"
-    for entry in "${entries[@]}"; do
-      entry=$(echo "$entry" | sed 's/^ *//; s/ *$//')
-      port=$(echo "$entry" | cut -d'/' -f1)
-      state=$(echo "$entry" | cut -d'/' -f2)
-      service=$(echo "$entry" | cut -d'/' -f5)
-
-      [ "$state" != "open" ] && continue
-      [ -z "$service" ] && service="unknown"
-
-      echo "$uri,$port,$service"
-    done
-  done
-} > "$2"
-
-{ head -n 1 "$2"; tail -n +2 "$2" | sort -u; } > "$2.tmp" && mv "$2.tmp" "$2"
+    nmap -sV -p "$ports" -oG - "$ip" 2>/dev/null | awk -v uri="$uri" -v ip="$ip" '
+      /^Host:/ {
+        for (i = 1; i <= NF; i++) {}          # no-op; keep gawk/mawk happy
+        n = split($0, tab, "\t")
+        for (i = 1; i <= n; i++) {
+          if (tab[i] ~ /^Ports:/) {
+            sub(/^Ports: /, "", tab[i])
+            m = split(tab[i], ent, "/, ")       # entries end in "/"; "/" is escaped
+                                                 # to "|" inside fields, so this is safe
+            for (j = 1; j <= m; j++) {
+              split(ent[j], f, "/")            # f[1]=port f[2]=state f[5]=service
+              if (f[2] == "open") {
+                svc = (f[5] == "" ? "unknown" : f[5])
+                ver = f[7]
+                gsub(/"/, "\"\"", ver)          # CSV-escape embedded quotes
+                print uri "," ip "," f[1] "," svc ",\"" ver "\""
+              }
+            }
+          }
+        }
+      }
+    '
+  done < "$input" | sort -u
+} > "$outfile"
 
 echo
-echo "Service info written to $2"
-echo
+echo " [ INFO ] Service info written to $outfile"

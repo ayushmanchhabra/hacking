@@ -1,6 +1,0 @@
-api.asyncawake.studio
-asyncawake.studio
-sftp.asyncawake.studio
-todo.asyncawake.studio
-verify.asyncawake.studio
-zk.asyncawake.studio

@@ -1,5 +1,5 @@
-URI,IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
-185.199.108.153,185.199.108.153,cdn-185-199-108-153.github.com,San Francisco,California,US,37.7621;-122.3971,AS54113 Fastly; Inc.,94107,America/Los_Angeles,https://ipinfo.io/missingauth,true
-185.199.109.153,185.199.109.153,cdn-185-199-109-153.github.com,San Francisco,California,US,37.7621;-122.3971,AS54113 Fastly; Inc.,94107,America/Los_Angeles,https://ipinfo.io/missingauth,true
-185.199.110.153,185.199.110.153,cdn-185-199-110-153.github.com,San Francisco,California,US,37.7621;-122.3971,AS54113 Fastly; Inc.,94107,America/Los_Angeles,https://ipinfo.io/missingauth,true
-185.199.111.153,185.199.111.153,cdn-185-199-111-153.github.com,San Francisco,California,US,37.7621;-122.3971,AS54113 Fastly; Inc.,94107,America/Los_Angeles,https://ipinfo.io/missingauth,true
+IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
+"185.199.108.153","cdn-185-199-108-153.github.com","San Francisco","California","US","37.7621,-122.3971","AS54113 Fastly, Inc.","94107","America/Los_Angeles","https://ipinfo.io/missingauth",true
+"185.199.109.153","cdn-185-199-109-153.github.com","San Francisco","California","US","37.7621,-122.3971","AS54113 Fastly, Inc.","94107","America/Los_Angeles","https://ipinfo.io/missingauth",true
+"185.199.110.153","cdn-185-199-110-153.github.com","San Francisco","California","US","37.7621,-122.3971","AS54113 Fastly, Inc.","94107","America/Los_Angeles","https://ipinfo.io/missingauth",true
+"185.199.111.153","cdn-185-199-111-153.github.com","San Francisco","California","US","37.7621,-122.3971","AS54113 Fastly, Inc.","94107","America/Los_Angeles","https://ipinfo.io/missingauth",true

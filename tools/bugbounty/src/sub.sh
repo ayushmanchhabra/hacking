@@ -1,4 +1,8 @@
 #!/bin/bash
+#
+# Usage: ./sub.sh <domain> <output.txt>
+#
+# Requires: subfinder
 
 domain=$1
 outfile=$2
