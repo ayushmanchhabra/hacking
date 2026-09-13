@@ -2,6 +2,6 @@ URI,IP,Ports
 asyncawake.studio,185.199.108.153,"80,443"
 asyncawake.studio,185.199.109.153,"80,443"
 asyncawake.studio,185.199.110.153,"80,443"
-asyncawake.studio,185.199.111.153,"80"
+asyncawake.studio,185.199.111.153,"80,443"
 verify.asyncawake.studio,216.150.1.193,"80,443"
-verify.asyncawake.studio,216.150.16.193,"NA"
+verify.asyncawake.studio,216.150.16.193,"80,443"
