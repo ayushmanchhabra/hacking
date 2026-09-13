@@ -1,6 +1,8 @@
 # Bug Bounty
 
-Map the attack surface of a target.
+![Workflow](bugbounty.png)
+
+Map the attack surface of target(s).
 
 ## Requirements
 
