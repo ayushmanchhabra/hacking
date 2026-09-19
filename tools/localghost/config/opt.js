@@ -24,6 +24,9 @@ const options = {
   outDir: "./out",
   glob: false,
   argv: [],
+  app: {
+    icon: "./assets/icon.png",
+  },
   managedManifest: "./src/desktop/package.json",
   cache: true,
   ffmpeg: false,
