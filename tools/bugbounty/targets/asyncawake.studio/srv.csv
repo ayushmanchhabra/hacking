@@ -1,4 +1,5 @@
 URI,IP,port,service,version
+asyncawake.studio,185.199.108.153,443,ssl|https,"GitHub.com"
 asyncawake.studio,185.199.108.153,80,http,"GitHub.com"
 asyncawake.studio,185.199.109.153,443,ssl|https,"GitHub.com"
 asyncawake.studio,185.199.109.153,80,http,"GitHub.com"
@@ -6,7 +7,5 @@ asyncawake.studio,185.199.110.153,443,ssl|https,"GitHub.com"
 asyncawake.studio,185.199.110.153,80,http,"GitHub.com"
 asyncawake.studio,185.199.111.153,443,ssl|https,"GitHub.com"
 asyncawake.studio,185.199.111.153,80,http,"GitHub.com"
-verify.asyncawake.studio,216.150.1.1,443,ssl|https,"Vercel"
 verify.asyncawake.studio,216.150.1.1,80,http,"Vercel"
 verify.asyncawake.studio,216.150.16.1,443,ssl|https,"Vercel"
-verify.asyncawake.studio,216.150.16.1,80,http,"Vercel"
