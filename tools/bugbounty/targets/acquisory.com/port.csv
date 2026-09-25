@@ -1,7 +1,7 @@
 URI,IP,Ports
 acquisory.com,170.178.144.136,"80,443"
 contact-management.acquisory.com,170.178.144.136,"80,443"
-webmail.acquisory.com,40.104.46.2,"25,80,110,143,443,587,993,995"
-webmail.acquisory.com,52.96.165.210,"25,80,110,143,443,587,993,995"
-webmail.acquisory.com,52.96.87.210,"25,80,110,143,443,587,993,995"
-webmail.acquisory.com,52.96.90.34,"25,80,110,143,443,587,993,995"
+webmail.acquisory.com,40.104.39.242,"25,80,110,143,443,587,993,995"
+webmail.acquisory.com,52.96.119.178,"25,80,110,143,443,587,993,995"
+webmail.acquisory.com,52.96.182.178,"25,80,110,143,443,587,993"
+webmail.acquisory.com,52.96.242.2,"110,443,587,993"
