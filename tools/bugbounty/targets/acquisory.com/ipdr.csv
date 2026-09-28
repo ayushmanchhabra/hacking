@@ -1,18 +1,10 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:307:4070::2","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:307:4869::2","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:307:486d::2","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:307:48dc::2","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:307:48dd::2","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:307:48df::2","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:307:48e0::2","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:307:54ad::2","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.165.66","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.165.98","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.166.146","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.166.2","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.166.210","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.188.130","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.36.82","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.70.130","NA","San Jose","California","US","37.3394,-121.8950","AS8075 Microsoft Corporation","95110","America/Los_Angeles","https://ipinfo.io/missingauth",false
+"2603:1036:302:415e::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:302:4823::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c17::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c1e::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"40.104.16.226","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.173.146","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.181.226","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.97.146","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
