@@ -1,10 +1,10 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:300f::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:3034::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:5:433::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:5:452::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"40.104.230.210","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"40.104.230.226","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"40.104.231.114","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.228.242","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:30c:1001::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"2603:1036:30c:84d::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"2603:1036:30c:c74::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"2603:1036:30c:c93::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"40.104.23.210","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"40.99.140.226","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"40.99.229.242","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"52.97.104.34","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
