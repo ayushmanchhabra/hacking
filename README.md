@@ -6,6 +6,7 @@ Evolving resource kit for hacking which are authorized engagements.
 
 ### Tools
 
+- [ai-harness](tools/ai-harness/README.md) — Dockerised Ollama (qwen3.6) with an Express proxy and React chat UI.
 - [autofrida (TaskForce)](tools/autofrida/README.md) — frida setup automation
 - [bugbounty](tools/bugbounty/README.md) — automate the low hanging fruit, so the operator can chain and exploit the critical findings
 - [killchain](tools/killchain/README.md) — multithreaded C network scanner that hand-crafts raw IP/TCP packets for SYN scanning and host discovery.
