@@ -1,6 +1,5 @@
-import assert from "node:assert/strict";
-import { afterEach, test } from "node:test";
-import { getModel, streamChat } from "./api.ts";
+import { afterEach, expect, test } from "vitest";
+import { getModel, streamChat } from "./api";
 
 const realFetch = globalThis.fetch;
 afterEach(() => {
@@ -42,27 +41,25 @@ test("streamChat reassembles NDJSON lines split across network chunks", async ()
     },
     new AbortController().signal,
   );
-  assert.equal(content, "Hello, world");
-  assert.equal(thinking, "let me think");
+  expect(content).toBe("Hello, world");
+  expect(thinking).toBe("let me think");
 });
 
 test("streamChat throws on an in-stream error chunk", async () => {
   mockStream([JSON.stringify({ error: "model not found", done: true }) + "\n"]);
-  await assert.rejects(
+  await expect(
     streamChat([], true, () => {}, new AbortController().signal),
-    /model not found/,
-  );
+  ).rejects.toThrow(/model not found/);
 });
 
 test("streamChat throws on a non-2xx response", async () => {
   mockStream(["upstream down"], 502);
-  await assert.rejects(
+  await expect(
     streamChat([], true, () => {}, new AbortController().signal),
-    /502/,
-  );
+  ).rejects.toThrow(/502/);
 });
 
 test("getModel returns the server's model status", async () => {
   globalThis.fetch = async () => Response.json({ model: "qwen3.6", ready: true });
-  assert.deepEqual(await getModel(), { model: "qwen3.6", ready: true });
+  expect(await getModel()).toEqual({ model: "qwen3.6", ready: true });
 });

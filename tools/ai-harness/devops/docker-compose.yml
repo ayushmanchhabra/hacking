@@ -33,5 +33,14 @@ services:
       ollama:
         condition: service_healthy
 
+  # Unit tests for client and server against a fake Ollama; no model download.
+  # docker compose -f devops/docker-compose.yml run --rm --build test
+  test:
+    profiles: [test]
+    build:
+      context: ..
+      dockerfile: devops/web.Dockerfile
+      target: test
+
 volumes:
   ollama:

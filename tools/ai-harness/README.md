@@ -45,3 +45,9 @@ Run the UI with hot reload against a running Ollama:
 
 1. `cd server && npm i && OLLAMA_URL=http://localhost:11434 npm start` starts Express on :3000.
 1. `cd client && npm i && npm run dev` starts Vite, which proxies `/api` to :3000.
+
+## Testing
+
+`docker compose -f devops/docker-compose.yml run --rm --build test` runs the client (Vitest) and server (`node:test`) suites against a fake Ollama, so it needs no model download. The `ai-harness` GitHub Action runs this same command.
+
+Without Docker: `npm --prefix client test && npm --prefix server test`.

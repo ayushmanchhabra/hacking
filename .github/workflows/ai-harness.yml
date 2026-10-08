@@ -1,0 +1,35 @@
+name: ai-harness
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "tools/ai-harness/**"
+      - ".github/workflows/ai-harness.yml"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "tools/ai-harness/**"
+      - ".github/workflows/ai-harness.yml"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ai-harness-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: tools/ai-harness
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
+      - name: Run tests
+        run: docker compose -f devops/docker-compose.yml run --rm --build test
