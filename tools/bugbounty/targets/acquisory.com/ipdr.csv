@@ -1,19 +1,11 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:30c:901::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:902::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:908::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:90b::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:90e::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:c86::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:c8a::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:c96::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.104.23.114","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.104.23.130","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.104.23.98","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.97.63.133","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.99.229.210","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.99.229.226","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.99.229.242","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.99.230.146","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"2603:1036:305:3006::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:305:385b::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:305:401b::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:305:4947::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
+"40.99.169.162","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.103.2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.121.130","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.122.98","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
