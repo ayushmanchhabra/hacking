@@ -17,7 +17,7 @@ unwind table (.eh_frame_hdr / .ARM.exidx) when present, else a prologue walk
 (always on iOS). Emits per-target Frida scripts + a combined arch-selecting one. 
 
 Usage: python3 flutter_ssl_offset.py <app.apk|app.ipa|libflutter.so|Flutter> [-o OUT] 
-Requires: lief ; capstone (armeabi-v7a / x86 only). Ref: f3rb123/kill_flutter. 
+Requires: lief ; capstone (armeabi-v7a / x86 only). 
 FOR AUTHORIZED SECURITY TESTING ONLY. 
 """ 
 import sys, struct, re, bisect, argparse 
@@ -419,8 +419,8 @@ def run_apk(apk_path, out_dir):
 # The iOS Flutter engine is the Mach-O binary inside Flutter.framework. It is 
 # arm64, uses the SAME BoringSSL ssl_client/ssl_server anchors, but ships NO 
 # unwind table we can key on (no .eh_frame_hdr), so the arm64 engine resolves 
-# the verify function via its prologue-walk fallback (starts=None) — exactly 
-# like kill_flutter's iOS path. Module name at runtime is "Flutter". 
+# the verify function via its prologue-walk fallback (starts=None). Module name 
+# at runtime is "Flutter". 
 
 def analyze_macho(path, label=""): 
  """Return ('ios-arm64', rva) for a Flutter.framework binary, or (.., None).""" 
@@ -539,4 +539,4 @@ def main():
  print(f"[+] Frida script: {out}") 
 
 if __name__ == "__main__": 
- main() 
+ main()
