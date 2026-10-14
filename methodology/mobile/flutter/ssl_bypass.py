@@ -12,9 +12,9 @@ Per target: locate the ssl_client/ssl_server string anchors, scan code for the
 instructions that load them (arm64 ADRP+ADD/LDR, x86_64 RIP-relative LEA, arm32 
 MOVW/MOVT+ADD-pc / PC-relative LDR), then pick the function referencing BOTH 
 with the smallest gap — the SSL_is_server(ssl)?"ssl_client":"ssl_server" select 
-in ssl_crypto_x509_session_verify_cert_chain. Function bounds come from the 
-unwind table (.eh_frame_hdr / .ARM.exidx) when present, else a prologue walk 
-(always on iOS). Emits per-target Frida scripts + a combined arch-selecting one. 
+in ssl_crypto_x509_session_verify_cert_chain. Function bounds come from LIEF's 
+function table (unwind info / LC_FUNCTION_STARTS / symbols); if empty, the arm64 
+engine walks back to a prologue. Emits per-target Frida scripts + a combined one. 
 
 Usage: python3 flutter_ssl_offset.py <app.apk|app.ipa|libflutter.so|Flutter> [-o OUT] 
 Requires: lief ; capstone (armeabi-v7a / x86 only). 
@@ -41,81 +41,21 @@ def seg_type(s):
  try: return str(s.type) 
  except Exception: return "" 
 
-def collect(b): 
- """Return dict: loads[], code=(foff,va,filesz), eh_frame_hdr, arm_exidx.""" 
- loads, code = [], None 
- eh = None; exidx = None 
+def code_segment(b): 
+ """First executable PT_LOAD -> (file_offset, vaddr, filesz), or None.""" 
  for s in b.segments: 
- t = seg_type(s) 
- if t.endswith("LOAD"): 
- fo, va, sz = s.file_offset, s.virtual_address, s.physical_size 
- loads.append((fo, va, sz)) 
- if (int(s.flags) & 1) and code is None: # PF_X 
- code = (fo, va, sz) 
- elif "GNU_EH_FRAME" in t: 
- eh = (s.file_offset, s.virtual_address, s.physical_size) 
- elif "ARM_EXIDX" in t or "EXIDX" in t: 
- exidx = (s.file_offset, s.virtual_address, s.physical_size) 
- # fall back to sections if the program-header lookup missed 
- def sec(name): 
- try: 
- x = b.get_section(name) 
- if x and x.size: return (x.offset, x.virtual_address, x.size) 
- except Exception: pass 
+ if seg_type(s).endswith("LOAD") and (int(s.flags) & 1): # PF_X 
+ return (s.file_offset, s.virtual_address, s.physical_size) 
  return None 
- if eh is None: eh = sec(".eh_frame_hdr") 
- if exidx is None: exidx = sec(".ARM.exidx") 
- return loads, code, eh, exidx 
 
-def foff_to_vaddr(loads, fo): 
- for (off, va, sz) in loads: 
- if off <= fo < off + sz: 
- return va + (fo - off) 
- return fo 
-
-# ───────────────────── unwind-table function starts ───────────────────── 
-
-def eh_frame_function_starts(data, hdr_off, hdr_va): 
- p = hdr_off 
- version = data[p]; enc_fp = data[p+1]; enc_cnt = data[p+2]; enc_tbl = data[p+3] 
- p += 4 
- if version != 1: return [] 
- def dec(enc): 
- nonlocal p 
- fmt = enc & 0x0f 
- if fmt == 0x03: v = struct.unpack_from('<I', data, p)[0]; p += 4 
- elif fmt == 0x0b: v = struct.unpack_from('<i', data, p)[0]; p += 4 
- elif fmt == 0x0c: v = struct.unpack_from('<Q', data, p)[0]; p += 8 
- else: raise ValueError(f"eh enc {hex(fmt)}") 
- return v 
- dec(enc_fp); cnt = dec(enc_cnt) 
- appl = enc_tbl & 0x70; fmt = enc_tbl & 0x0f 
- starts = [] 
- for _ in range(cnt): 
- if fmt == 0x0b: 
- iloc = struct.unpack_from('<i', data, p)[0]; p += 4; p += 4 
- elif fmt == 0x03: 
- iloc = struct.unpack_from('<I', data, p)[0]; p += 4; p += 4 
- else: raise ValueError("eh tbl fmt") 
- if appl == 0x30: va = (hdr_va + iloc) & 0xffffffffffffffff 
- elif appl == 0x10: va = (hdr_va + (p - 8 - hdr_off) + iloc) & 0xffffffffffffffff 
- else: va = iloc & 0xffffffffffffffff 
- starts.append(va) 
- starts.sort(); return starts 
-
-def arm_exidx_function_starts(data, exidx_off, exidx_va, exidx_sz, code_lo, code_hi): 
- def prel31(v): 
- v &= 0x7fffffff 
- if v & 0x40000000: v -= 0x80000000 
- return v 
- starts = [] 
- for e in range(exidx_off, exidx_off + exidx_sz, 8): 
- w0 = struct.unpack_from('<I', data, e)[0] 
- if w0 & 0x80000000: continue 
- entry_va = (e - exidx_off) + exidx_va 
- fn = ((entry_va + prel31(w0)) & 0xffffffff) & ~1 
- if code_lo <= fn < code_hi: starts.append(fn) 
- return sorted(set(starts)) 
+def function_starts(b): 
+ """Sorted function-entry VAs from LIEF (unwind tables + any symbols). 
+ Thumb bit masked so arm32 entries compare cleanly. None if empty.""" 
+ try: 
+ s = sorted({f.address & ~1 for f in b.functions}) 
+ except Exception: 
+ s = [] 
+ return s or None 
 
 def func_start_before(starts, va): 
  i = bisect.bisect_right(starts, va) - 1 
@@ -337,30 +277,22 @@ def analyze_so(path, label=""):
  """Return (abi, rva) for one libflutter.so, or (abi|None, None).""" 
  tag = f"[{label}] " if label else "" 
  raw, b, arch = load(path) 
- loads, code, eh, exidx = collect(b) 
+ code = code_segment(b) 
  abi = {"arm64":"arm64-v8a","x86_64":"x86_64","arm":"armeabi-v7a","x86":"x86"}[arch] 
  if code is None: 
  print(f"{tag}[-] no executable LOAD segment"); return abi, None 
  cfo, cva, csz = code 
- base_va = next((va for (off, va, sz) in loads if off == 0), 0) 
+ base_va = b.imagebase 
  print(f"{tag}[*] arch={arch} code vaddr=0x{cva:x} size=0x{csz:x}") 
 
- sc = [foff_to_vaddr(loads, m.start()) for m in re.finditer(b'ssl_client\x00', raw)] 
- ss = [foff_to_vaddr(loads, m.start()) for m in re.finditer(b'ssl_server\x00', raw)] 
+ sc = [b.offset_to_virtual_address(m.start()) for m in re.finditer(b'ssl_client\x00', raw)] 
+ ss = [b.offset_to_virtual_address(m.start()) for m in re.finditer(b'ssl_server\x00', raw)] 
  if not sc or not ss: 
  print(f"{tag}[-] ssl_client/ssl_server not found — not a Flutter engine?"); return abi, None 
  print(f"{tag}[+] ssl_client @ {[hex(x) for x in sc]} ssl_server @ {[hex(x) for x in ss]}") 
 
- starts = None 
- if arch in ("arm64", "x86_64") and eh: 
- try: 
- starts = eh_frame_function_starts(raw, eh[0], eh[1]) 
- print(f"{tag}[+] .eh_frame_hdr: {len(starts)} function starts") 
- except Exception as e: 
- print(f"{tag}[!] .eh_frame_hdr parse failed ({e}); prologue fallback") 
- elif arch == "arm" and exidx: 
- starts = arm_exidx_function_starts(raw, exidx[0], exidx[1], exidx[2], cva, cva+csz) 
- print(f"{tag}[+] .ARM.exidx: {len(starts)} function starts") 
+ starts = function_starts(b) # LIEF: from .eh_frame_hdr / .ARM.exidx / symbols 
+ print(f"{tag}[+] {len(starts) if starts else 0} function starts (LIEF)") 
 
  engine = {"arm64":scan_arm64, "x86_64":scan_x86_64, "arm":scan_arm32, "x86":scan_x86_32}[arch] 
  rva = engine(raw, code, base_va, sc[0], ss[0], starts) 
@@ -417,10 +349,9 @@ def run_apk(apk_path, out_dir):
 # ─────────────────────────── iOS (Mach-O) ─────────────────────────── 
 # 
 # The iOS Flutter engine is the Mach-O binary inside Flutter.framework. It is 
-# arm64, uses the SAME BoringSSL ssl_client/ssl_server anchors, but ships NO 
-# unwind table we can key on (no .eh_frame_hdr), so the arm64 engine resolves 
-# the verify function via its prologue-walk fallback (starts=None). Module name 
-# at runtime is "Flutter". 
+# arm64 and uses the SAME BoringSSL ssl_client/ssl_server anchors. Function 
+# bounds come from LIEF (LC_FUNCTION_STARTS) when present, else the arm64 
+# engine's prologue-walk fallback. Module name at runtime is "Flutter". 
 
 def analyze_macho(path, label=""): 
  """Return ('ios-arm64', rva) for a Flutter.framework binary, or (.., None).""" 
@@ -445,7 +376,7 @@ def analyze_macho(path, label=""):
  data = bytes(exec_seg.content) 
  cva = exec_seg.virtual_address 
  code = (0, cva, len(data)) # cfo=0: offsets are segment-relative 
- base_va = cva # __TEXT base == module base for RVA 
+ base_va = bin_.imagebase # __TEXT base == module base for RVA 
  print(f"{tag}[*] arch=ios-arm64 __TEXT vaddr=0x{cva:x} size=0x{len(data):x}") 
 
  sc = [cva + m.start() for m in re.finditer(b'ssl_client\x00', data)] 
@@ -455,8 +386,10 @@ def analyze_macho(path, label=""):
  return "ios-arm64", None 
  print(f"{tag}[+] ssl_client @ {[hex(x) for x in sc]} ssl_server @ {[hex(x) for x in ss]}") 
 
- # No eh_frame_hdr on iOS -> starts=None -> scan_arm64 uses prologue fallback. 
- rva = scan_arm64(data, code, base_va, sc[0], ss[0], None) 
+ # LC_FUNCTION_STARTS via LIEF for exact bounds; else scan_arm64 prologue walk. 
+ starts = function_starts(bin_) 
+ print(f"{tag}[+] {len(starts) if starts else 0} function starts (LIEF)") 
+ rva = scan_arm64(data, code, base_va, sc[0], ss[0], starts) 
  if rva is None: 
  print(f"{tag}[-] could not resolve verify function"); return "ios-arm64", None 
  print(f"{tag}[=] ios-arm64: SSL verify RVA = 0x{rva:x}") 
