@@ -1,19 +1,19 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:207:457::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:207:86c::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:302:4154::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:302:4823::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:302:4830::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:302:4842::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:302:505c::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:302:505d::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"40.104.46.18","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"40.104.46.2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"40.99.232.210","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.109.146","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.109.226","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.111.82","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.87.226","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.88.82","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:304:284c::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:2852::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:30af::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:3406::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:83d::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:85f::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:870::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:872::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.156.18","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.157.146","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.163.18","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.163.2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.191.194","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.79.194","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.79.210","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.79.242","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
