@@ -1,11 +1,11 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:308:2819::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:281b::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:2823::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:285d::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.113.194","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.121.2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.164.82","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.165.18","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
+"2603:1036:306:1810::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
+"2603:1036:306:1817::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
+"2603:1036:306:184a::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
+"2603:1036:306:202e::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
+"40.99.165.2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
+"40.99.227.162","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
+"52.96.85.50","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
+"52.96.93.194","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
