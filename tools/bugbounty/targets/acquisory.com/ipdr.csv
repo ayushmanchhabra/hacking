@@ -1,19 +1,11 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:21e0::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:302f::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:3031::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:303d::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:303f::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:3081::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:3083::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:5:433::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"40.104.189.66","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"40.104.230.146","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"40.104.230.50","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"40.104.39.226","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.181.66","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.182.178","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.182.226","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.214.50","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:2859::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:801::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:804::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:304:81c::2","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.157.146","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.164.130","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.164.178","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.79.34","NA","Chicago","Illinois","US","41.8500,-87.6500","AS8075 Microsoft Corporation","60608","America/Chicago","https://ipinfo.io/missingauth",false
