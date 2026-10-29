@@ -1,19 +1,11 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:303:3839::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:303:3c04::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:303:3c05::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:303:3c0d::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:303:3c28::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:303:3c29::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:303:3c35::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"2603:1036:303:4850::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.119.82","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.122.50","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.165.130","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.173.210","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.181.242","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.182.2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.184.18","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
-"52.96.189.34","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:30c:84d::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"2603:1036:30c:90a::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"2603:1036:30c:c8a::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"2603:1036:903:47::6","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"40.104.23.82","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"40.99.181.130","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"52.97.104.50","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"52.97.104.82","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
