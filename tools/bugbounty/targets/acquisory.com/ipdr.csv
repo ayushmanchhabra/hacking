@@ -1,19 +1,11 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:308:200f::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:2816::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:2820::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:2825::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:2826::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:282d::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:283c::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"2603:1036:308:283d::2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.113.242","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.121.2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.164.194","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.164.226","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.164.82","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.165.2","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.166.50","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
-"52.96.166.66","NA","Moses Lake","Washington","US","47.1301,-119.2781","AS8075 Microsoft Corporation","98837","America/Los_Angeles","https://ipinfo.io/missingauth",false
+"2603:1036:301:300f::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:301:30a2::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:5:1427::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:5:44d::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"40.104.230.194","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"40.104.230.226","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"40.104.231.114","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"52.96.180.114","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
