@@ -1,11 +1,11 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:30c:818::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:90a::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:c77::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"2603:1036:30c:c84::2","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.104.23.210","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.104.23.66","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"40.99.140.210","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
-"52.96.104.210","NA","Phoenix","Arizona","US","33.4484,-112.0740","AS8075 Microsoft Corporation","85003","America/Phoenix","https://ipinfo.io/missingauth",false
+"2603:1036:302:4835::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3805::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c06::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:7::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.109.178","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.109.242","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.183.226","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.88.66","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
