@@ -1,19 +1,19 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:305:3004::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:305:300b::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:305:3859::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:305:385b::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:305:388a::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:305:4015::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:305:401d::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:305:4947::2","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"40.99.168.226","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"40.99.245.82","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.121.242","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.122.226","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.122.242","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.122.98","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.191.98","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.57.66","NA","San Antonio","Texas","US","29.4241,-98.4936","AS8075 Microsoft Corporation","78205","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:303:380a::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c06::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c19::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c1a::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c1e::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c28::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c30::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:303:3c32::2","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.172.114","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.173.130","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.173.162","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.182.18","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.183.226","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.189.50","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.222.162","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.222.194","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
