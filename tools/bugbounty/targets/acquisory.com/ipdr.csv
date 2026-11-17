@@ -1,11 +1,11 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:3039::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:301:3081::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:5:180b::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:5:44c::2","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"40.104.231.50","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.119.178","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.182.146","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
-"52.96.214.50","NA","Des Moines","Iowa","US","41.6005,-93.6091","AS8075 Microsoft Corporation","50309","America/Chicago","https://ipinfo.io/missingauth",false
+"2603:1036:302:4830::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:302:4835::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:302:4843::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:302:505a::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.111.98","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.182.98","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.183.242","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.189.50","NA","Boydton","Virginia","US","36.6676,-78.3875","AS8075 Microsoft Corporation","23917","America/New_York","https://ipinfo.io/missingauth",false
