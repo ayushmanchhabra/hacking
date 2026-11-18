@@ -1,1 +1,5 @@
 URI,IP,port,service,version
+verify.asyncawake.studio,216.150.1.1,443,ssl|https,"Vercel"
+verify.asyncawake.studio,216.150.1.1,80,http,"Vercel"
+verify.asyncawake.studio,216.150.16.1,443,ssl|https,"Vercel"
+verify.asyncawake.studio,216.150.16.1,80,http,"Vercel"
