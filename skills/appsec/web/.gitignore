@@ -1,0 +1,3 @@
+# WSTG documents are fetched on demand by scripts/setup.sh, not committed.
+/.wstg/
+/document
