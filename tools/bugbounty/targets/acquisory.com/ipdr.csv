@@ -1,19 +1,11 @@
 IP,HOSTNAME,CITY,REGION,COUNTRY,LOC,ORG,POSTAL,TIMEZONE,README,ANYCAST
 "170.178.144.136","170.178.144.136.customer.chinetworks.com","Chicago","Illinois","US","41.8500,-87.6500","AS18590 Chi Networks","60608","America/Chicago","https://ipinfo.io/missingauth",false
 "204.80.91.10","mail04.chinetworks.com","Wheaton","Illinois","US","41.8661,-88.1070","AS18590 Chi Networks","60187","America/Chicago","https://ipinfo.io/missingauth",false
-"2603:1036:306:1802::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"2603:1036:306:1803::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"2603:1036:306:184a::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"2603:1036:306:184c::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"2603:1036:306:184d::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"2603:1036:306:1855::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"2603:1036:306:200e::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"2603:1036:306:2053::2","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"40.99.165.18","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"40.99.165.66","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"40.99.170.18","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"40.99.227.130","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"40.99.253.146","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"40.99.253.98","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"52.96.93.130","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
-"52.96.93.210","NA","Cheyenne","Wyoming","US","41.1400,-104.8203","AS8075 Microsoft Corporation","82001","America/Denver","https://ipinfo.io/missingauth",false
+"2603:1036:302:40f4::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:302:415c::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:302:4843::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"2603:1036:302:4846::2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"40.99.232.210","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.111.98","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.88.2","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
+"52.96.88.34","NA","Dulles Town Center","Virginia","US","39.0376,-77.4158","AS8075 Microsoft Corporation","20164","America/New_York","https://ipinfo.io/missingauth",false
